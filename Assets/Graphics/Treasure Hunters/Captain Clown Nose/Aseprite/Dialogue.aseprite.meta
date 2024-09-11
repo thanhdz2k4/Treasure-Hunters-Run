@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 52d5a1342d599ab4a9f1ef99b431ff61
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dialogue_Frame_1
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 84
+      width: 9
+      height: 5
+    spriteID: 18ca7c35bcb042c4e9df3c94cd67932e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 84}
+  - name: Dialogue_Frame_2
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 11
+      height: 12
+    spriteID: e16fdc1af3c58384cb2d8579a5a29206
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Dialogue_Frame_3
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 22
+      width: 9
+      height: 10
+    spriteID: 6d8c7212e6043d54f80d1b050dda2651
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 22}
+  - name: Dialogue_Frame_4
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 11
+      height: 12
+    spriteID: aad0dc74ef3127742bb13ff67415f2d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 64}
+  - name: Dialogue_Frame_5
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 97
+      width: 9
+      height: 5
+    spriteID: b642e250ab6d3e04aacb5fa086cbc78f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 97}
+  - name: Dialogue_Frame_8
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 110
+      width: 9
+      height: 5
+    spriteID: 49fcd1b722123264a832dd47dfac5160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 110}
+  - name: Dialogue_Frame_9
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 11
+      height: 12
+    spriteID: d2976630739a03e4a8098d3cb820c8b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Dialogue_Frame_10
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 40
+      width: 9
+      height: 10
+    spriteID: 4ae5944e4ceba53448ea0d58b8175cc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 40}
+  - name: Dialogue_Frame_11
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 11
+      height: 12
+    spriteID: cb13c2900148a9442a263a8d0386cb69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: Dialogue_Frame_12
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 9
+      height: 5
+    spriteID: ee3fd464116ca0a4086f555c5fc0356b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Dialogue_Frame_15
+    originalName: 
+    pivot: {x: 0.54545456, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 58
+      width: 11
+      height: 5
+    spriteID: 48814aab7e3ddf2489411014f8ed6dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 58}
+  - name: Dialogue_Frame_16
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 13
+      height: 12
+    spriteID: 8977a97759647c2449574cb3796edd37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dialogue_Frame_17
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 4
+      width: 11
+      height: 10
+    spriteID: 7e041dec9dcf8f248a8c14a7f6d4c35d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 4}
+  - name: Dialogue_Frame_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 24
+      width: 13
+      height: 12
+    spriteID: add1683dd11cd9b4b80cc7c03b73d393
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 24}
+  - name: Dialogue_Frame_19
+    originalName: 
+    pivot: {x: 0.54545456, y: -2.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 71
+      width: 11
+      height: 5
+    spriteID: 72cd0a0898388c34f9e6ef6b3c18cb90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 71}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1216306516
+    name: Dialogue
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dialogue_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 14
+        width: 9
+        height: 5
+      spriteId: 18ca7c35bcb042c4e9df3c94cd67932e
+    - name: Dialogue_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 10
+        width: 11
+        height: 12
+      spriteId: e16fdc1af3c58384cb2d8579a5a29206
+    - name: Dialogue_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 11
+        width: 9
+        height: 10
+      spriteId: 6d8c7212e6043d54f80d1b050dda2651
+    - name: Dialogue_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 10
+        y: 10
+        width: 11
+        height: 12
+      spriteId: aad0dc74ef3127742bb13ff67415f2d4
+    - name: Dialogue_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 14
+        width: 9
+        height: 5
+      spriteId: b642e250ab6d3e04aacb5fa086cbc78f
+    - name: Dialogue_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 14
+        width: 9
+        height: 5
+      spriteId: 49fcd1b722123264a832dd47dfac5160
+    - name: Dialogue_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 10
+        width: 11
+        height: 12
+      spriteId: d2976630739a03e4a8098d3cb820c8b2
+    - name: Dialogue_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 11
+        width: 9
+        height: 10
+      spriteId: 4ae5944e4ceba53448ea0d58b8175cc1
+    - name: Dialogue_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 10
+        y: 10
+        width: 11
+        height: 12
+      spriteId: cb13c2900148a9442a263a8d0386cb69
+    - name: Dialogue_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 14
+        width: 9
+        height: 5
+      spriteId: ee3fd464116ca0a4086f555c5fc0356b
+    - name: Dialogue_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 10
+        y: 14
+        width: 11
+        height: 5
+      spriteId: 48814aab7e3ddf2489411014f8ed6dcf
+    - name: Dialogue_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 10
+        width: 13
+        height: 12
+      spriteId: 8977a97759647c2449574cb3796edd37
+    - name: Dialogue_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 10
+        y: 11
+        width: 11
+        height: 10
+      spriteId: 7e041dec9dcf8f248a8c14a7f6d4c35d
+    - name: Dialogue_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 9
+        y: 10
+        width: 13
+        height: 12
+      spriteId: add1683dd11cd9b4b80cc7c03b73d393
+    - name: Dialogue_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 10
+        y: 14
+        width: 11
+        height: 5
+      spriteId: 72cd0a0898388c34f9e6ef6b3c18cb90
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

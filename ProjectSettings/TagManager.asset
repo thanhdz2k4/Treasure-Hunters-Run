@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Grid
+  - VelocityHandler
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -40,4 +42,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 120530785
+    locked: 0
+  - name: BigCloud
+    uniqueID: 3970781917
+    locked: 0
+  - name: WaterReflect
+    uniqueID: 2260465345
+    locked: 0
+  - name: Ground
+    uniqueID: 1066717697
+    locked: 0
+  - name: Player
+    uniqueID: 567314639
+    locked: 0
+  - name: Water
+    uniqueID: 1171951667
+    locked: 0
+  - name: SmallCloud
+    uniqueID: 3148836863
     locked: 0
