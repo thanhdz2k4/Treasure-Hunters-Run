@@ -14,15 +14,20 @@ public class PlayerJumpState : FSMState
     private Rigidbody2D rb;
 
     [SerializeField]
-    private CapsuleCollider2D myFoot;
+    private Collider2D myFoot;
 
+    [SerializeField]
     private bool isJumping = false;
+
+    [SerializeField]
+    Animator animator;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        myFoot = GetComponent<CapsuleCollider2D>();
+        myFoot = GetComponent<Collider2D>();
         stateID = FSMStateID.Jumping;
+        animator = GetComponent<Animator>();
     }
 
     
@@ -41,6 +46,11 @@ public class PlayerJumpState : FSMState
 
     }
 
+    private void Update()
+    {
+        DoJumping();
+    }
+
     public override void RunState()
     {
         DoJumping();
@@ -49,15 +59,15 @@ public class PlayerJumpState : FSMState
 
     private void DoJumping()
     {
+
         // Check if the player is grounded
         isGround = IsGround();
 
-        // If player is grounded and not currently jumping, allow jump input
-        if (isGround && !isJumping)
+        // If player is grounded and jump key is pressed, allow jump
+        if (isGround && Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
-             isJumping = true;
-             Jump();
-            
+            isJumping = true;
+            Jump();
         }
 
         // Optional: if you want to stop upward velocity when key is released
@@ -65,6 +75,8 @@ public class PlayerJumpState : FSMState
         {
             StopJumpEarly();
         }
+
+        animator.SetBool("isJumping", !IsGround());
     }
 
     private void Jump()
