@@ -20,14 +20,7 @@ public class PlayerController : AdvancedFSM
     protected override void FSMFixUpdate()
     {
 
-      /*  KeyCode pressedKey = GetPressedKey();  // Detect pressed key
-        if (pressedKey != KeyCode.None)
-        {
-            CurrentState.CheckTransitionRules(pressedKey);  // Check transition rules with the detected key
-        }
-
-        // Run the current state's logic
-        CurrentState.RunState();*/
+     
     }
     private KeyCode GetPressedKey()
     {
@@ -45,6 +38,14 @@ public class PlayerController : AdvancedFSM
     }
     protected override void FSMUpdate()
     {
+        KeyCode pressedKey = GetPressedKey();  // Detect pressed key
+        if (pressedKey != KeyCode.None)
+        {
+            CurrentState.CheckTransitionRules(pressedKey);  // Check transition rules with the detected key
+        }
+
+        // Run the current state's logic
+        CurrentState.RunState();
     }
 
     public void SetTransition(KeyCode transition)
@@ -58,7 +59,7 @@ public class PlayerController : AdvancedFSM
         AddFSMState(AttackState);
 
         
-        JumpState.AddTransition(KeyCode.Q, FSMStateID.Attacking);
+        JumpState.AddTransition(KeyCode.A, FSMStateID.Attacking);
         AddFSMState(JumpState);
 
        

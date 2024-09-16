@@ -2,74 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class PoolingObject : MonoBehaviour
+public class PoolingObject : Pooling
 {
     [SerializeField]
-    List<GameObject> objectPrefabs;
-
+    GameObject prefab;
 
     [SerializeField]
-    List<GameObject> pool;
+    int sizeOfPoolingObject;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        InitializeObjectPooling();
-    }
-
-    private void InitializeObjectPooling()
+    protected override void InitializeObjectPooling()
     {
         pool = new List<GameObject>();
-        for(int i = 0; i < objectPrefabs.Count; i++)
+        for(int i = 0; i < sizeOfPoolingObject; i++)
         {
-            GameObject obj = Instantiate(objectPrefabs[i]);
-            obj.SetActive(false);
-            pool.Add(obj);
+            GameObject newObj = Instantiate(prefab);
+            newObj.SetActive(false);
+            pool.Add(newObj);
         }
     }
-
-    public GameObject GetObjectByIndex(int index)
+    public override GameObject GetPoolObject()
     {
-        if(index <= pool.Count)
+        foreach(var obj in pool)
         {
-            if(!pool[index].activeInHierarchy)
+            if(!obj.activeInHierarchy)
             {
-                pool[index].SetActive(true);
-                return pool[index];
+                obj.SetActive(true);
+                return obj;
             }
         }
         return null;
     }
 
-    public GameObject GetPoolObjectRandom()
-    {
-        // Check No objects available in the pool
-        if (pool.Count == 0)
-        {
-            return null; 
-        }
-
-        int random = Random.Range(0, pool.Count);
-
-        if (!pool[random].activeInHierarchy)
-        {
-            GameObject obj = pool[random];
-            obj.SetActive(true);
-            pool.RemoveAt(random); 
-            return obj; 
-        }
-
-        return null;
-    }
-
-
-
-    public void returnToPool(GameObject obj)
+    public override void ReturnToPool(GameObject obj)
     {
         obj.SetActive(false);
-        pool.Add(obj);
     }
 
    
+
+    
 }

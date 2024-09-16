@@ -37,18 +37,15 @@ public class PlayerJumpState : FSMState
         // Check the player input 
         // When the input is none, transition to run state
         // Transition logic here
-       
-        
-            PlayerController playerController = GetComponent<PlayerController>();
-            playerController.SetTransition(transition);
-            Debug.Log("playerJumstate: " + transition);
-        
-
+        PlayerController playerController = GetComponent<PlayerController>();
+        playerController.SetTransition(transition);
+        Debug.Log("playerJumstate: " + transition);
     }
 
     private void Update()
     {
-        DoJumping();
+        //DoJumping();
+        animator.SetBool("isJumping", !IsGround());
     }
 
     public override void RunState()
@@ -76,7 +73,8 @@ public class PlayerJumpState : FSMState
             StopJumpEarly();
         }
 
-        animator.SetBool("isJumping", !IsGround());
+        animator.SetFloat("YVelocity", rb.velocity.x);
+       
     }
 
     private void Jump()

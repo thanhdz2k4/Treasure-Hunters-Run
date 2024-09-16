@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Grid
   - VelocityHandler
+  - Ground
+  - Enemy
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -52,6 +55,9 @@ TagManager:
   - name: WaterReflect
     uniqueID: 2260465345
     locked: 0
+  - name: TreeBack
+    uniqueID: 45401595
+    locked: 0
   - name: Ground
     uniqueID: 1066717697
     locked: 0
@@ -60,6 +66,9 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 1171951667
+    locked: 0
+  - name: Enemy
+    uniqueID: 494605525
     locked: 0
   - name: SmallCloud
     uniqueID: 3148836863

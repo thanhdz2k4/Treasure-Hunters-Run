@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnMap : MonoBehaviour
 {
     [SerializeField]
-    PoolingObject pooling;
+    PoolingListOfObject pooling;
 
     [SerializeField]
     Camera camera;
@@ -43,11 +43,11 @@ public class SpawnMap : MonoBehaviour
         if(activeObjects.Count >= 4 && activeObjects[0].transform.position.x <= camera.transform.position.x + positionXDespawn)
         {
             // remove the first element form list of active objects
-            pooling.returnToPool(activeObjects[0]);
+            pooling.ReturnToPool(activeObjects[0]);
             activeObjects.RemoveAt(0);
 
             // spawn object 
-            GameObject obj = pooling.GetPoolObjectRandom();
+            GameObject obj = pooling.GetPoolObject();
             obj.transform.SetParent(Grid);
 
             // set position by position of the last element of list 
