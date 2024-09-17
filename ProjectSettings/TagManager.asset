@@ -64,6 +64,9 @@ TagManager:
   - name: Player
     uniqueID: 567314639
     locked: 0
+  - name: Ship
+    uniqueID: 3431740011
+    locked: 0
   - name: Water
     uniqueID: 1171951667
     locked: 0

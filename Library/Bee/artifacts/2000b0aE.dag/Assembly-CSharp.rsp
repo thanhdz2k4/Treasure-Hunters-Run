@@ -374,6 +374,7 @@
 "Assets/Scripts/Spawn/SpawnMap/SpawnMap.cs"
 "Assets/Scripts/State/AttackState/PlayerAttackState.cs"
 "Assets/Scripts/Sword/Sword.cs"
+"Assets/Scripts/Timeline/Timeline.cs"
 "Assets/Scripts/Velocity/VelocityHandler.cs"
 "Assets/SpawnSword.cs"
 -langversion:9.0

@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\PoolingObject\PoolingListOfObject.cs" />
     <Compile Include="Assets\Scripts\Sword\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemy\NormalEnemy.cs" />
+    <Compile Include="Assets\Scripts\Timeline\Timeline.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\Pooling.cs" />
   </ItemGroup>
   <ItemGroup>
