@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Enemy
   - Sword
+  - PoolingEnemy
   layers:
   - Default
   - TransparentFX

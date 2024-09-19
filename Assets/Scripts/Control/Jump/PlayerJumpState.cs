@@ -39,7 +39,7 @@ public class PlayerJumpState : FSMState
         // Transition logic here
         PlayerController playerController = GetComponent<PlayerController>();
         playerController.SetTransition(transition);
-        Debug.Log("playerJumstate: " + transition);
+       // Debug.Log("playerJumstate: " + transition);
     }
 
     private void Update()

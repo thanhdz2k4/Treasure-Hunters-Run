@@ -21,12 +21,12 @@ public abstract class FSMState : MonoBehaviour
         // Check if the current transition was already inside the map
         if(map.ContainsKey(transition))
         {
-            Debug.LogError("FSMState ERROR: Transition is already inside the map");
+            //Debug.LogError("FSMState ERROR: Transition is already inside the map");
             return;
         }
 
         map.Add(transition, id);
-        Debug.Log("Added : " + transition + " with ID : " + id);
+        //Debug.Log("Added : " + transition + " with ID : " + id);
     }
 
     // This method deletes a pair transition-state from this state map
@@ -54,7 +54,7 @@ public abstract class FSMState : MonoBehaviour
 
         }
 
-        Debug.LogError("FSMState ERROR: " + trans + " Transition passed to the state was not on the list");
+        //Debug.LogError("FSMState ERROR: " + trans + " Transition passed to the state was not on the list");
         return FSMStateID.None;
     }
 

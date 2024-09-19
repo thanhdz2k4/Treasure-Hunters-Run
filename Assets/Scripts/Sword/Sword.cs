@@ -34,7 +34,7 @@ public class Sword : MonoBehaviour
 
             
             animator.SetBool("IsEmbedded", true);
-            animator.SetBool("isReset", false);
+            animator.SetBool("IsReset", false);
 
             gameObject.transform.SetParent(collision.transform);
             gameObject.transform.eulerAngles = new Vector3(0, 0, -25f);
@@ -62,7 +62,7 @@ public class Sword : MonoBehaviour
         timer = 0;
         gameObject.transform.SetParent(null);
         animator.SetBool("IsEmbedded", false);
-        animator.SetBool("isReset", true);
+        animator.SetBool("IsReset", true);
         rb.isKinematic = false;
         
 

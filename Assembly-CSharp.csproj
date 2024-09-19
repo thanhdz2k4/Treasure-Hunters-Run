@@ -67,9 +67,11 @@
     <Compile Include="Assets\Scripts\FSM\AdvancedFSM.cs" />
     <Compile Include="Assets\Scripts\Control\Jump\PlayerJumpState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHandler.cs" />
     <Compile Include="Assets\Scripts\Interface\IJumping.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Control\Move\Ground\MoveBehind.cs" />
+    <Compile Include="Assets\Scripts\GameHandler\GameHandler.cs" />
     <Compile Include="Assets\Scripts\Spawn\SpawnMap\SpawnMap.cs" />
     <Compile Include="Assets\SpawnSword.cs" />
     <Compile Include="Assets\Scripts\FSM\FSM.cs" />

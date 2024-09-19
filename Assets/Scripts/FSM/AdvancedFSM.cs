@@ -33,7 +33,7 @@ public class AdvancedFSM : FSM
             fsmsStates.Add(fsmState);
             currentState = fsmState;
             currentStateID = fsmState.ID;
-            Debug.Log("currentState: " + currentState + "   CurrentStateID: " + currentStateID);
+           // Debug.Log("currentState: " + currentState + "   CurrentStateID: " + currentStateID);
             return;
         }
 
@@ -91,12 +91,12 @@ public class AdvancedFSM : FSM
         FSMStateID id = currentState.GetOutputState(trans);
         if (id == FSMStateID.None)
         {
-            Debug.LogError($"FSM ERROR: Current State {currentStateID} does not have a target state for this transition {trans}");
+            //Debug.LogError($"FSM ERROR: Current State {currentStateID} does not have a target state for this transition {trans}");
             return;
         }
 
         // Log state change
-        Debug.Log($"Transitioning from {currentStateID} to {id} on key press: {trans}");
+        //Debug.Log($"Transitioning from {currentStateID} to {id} on key press: {trans}");
 
         // Update the currentStateID and currentState		
         currentStateID = id;

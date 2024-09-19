@@ -28,7 +28,7 @@ public class PlayerController : AdvancedFSM
         {
             if (Input.GetKeyDown(keyCode))
             {
-                Debug.Log(keyCode);
+                //Debug.Log(keyCode);
                 return keyCode;  // Return the pressed key
                 
             }

@@ -38,7 +38,7 @@ public class PlayerAttackState : FSMState
     {
         PlayerController playerController = GetComponent<PlayerController>();
         playerController.SetTransition(transition);
-        Debug.Log("playerJumstate: " + transition);
+        //Debug.Log("playerJumstate: " + transition);
     }
 
     public override void RunState()
