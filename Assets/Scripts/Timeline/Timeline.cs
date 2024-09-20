@@ -22,7 +22,7 @@ public class Timeline : MonoBehaviour
         yield return new WaitForSeconds(timer);
         foreach(var obj in listOfObjectActives)
         {
-            obj.GetComponent<MonoBehaviour>().enabled = true;
+            obj.SetActive(true);
         }
     }
 

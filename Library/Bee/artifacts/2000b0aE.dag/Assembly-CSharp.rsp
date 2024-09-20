@@ -377,6 +377,8 @@
 "Assets/Scripts/State/AttackState/PlayerAttackState.cs"
 "Assets/Scripts/Sword/Sword.cs"
 "Assets/Scripts/Timeline/Timeline.cs"
+"Assets/Scripts/UI/AdapterNumber.cs"
+"Assets/Scripts/UI/TickComboBox.cs"
 "Assets/Scripts/UI_Animation/UIAnimationController.cs"
 "Assets/Scripts/Velocity/VelocityHandler.cs"
 "Assets/SpawnSword.cs"

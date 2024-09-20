@@ -10,9 +10,17 @@ public class GameHandler : MonoBehaviour
     [SerializeField]
     EnemyHandler enemyHandler;
 
-   /* [SerializeField]
-    PoolingListOfObject poolingObjects;
-*/
+    /* [SerializeField]
+     PoolingListOfObject poolingObjects;
+ */
+
+    float distanceMove;
+
+    private void Start()
+    {
+        distanceMove = PlayerPrefs.GetFloat("Distance");
+        //if(distanceMove)
+    }
 
     public void GetPositionToSpawnEnemy(Transform pos)
     {

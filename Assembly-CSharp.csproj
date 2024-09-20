@@ -59,6 +59,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UI\AdapterNumber.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCamera.cs" />
     <Compile Include="Assets\Scripts\Velocity\VelocityHandler.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\FSM\FSM.cs" />
     <Compile Include="Assets\Scripts\FSM\FSMState.cs" />
     <Compile Include="Assets\Scripts\BackGround\ParallaxBackground.cs" />
+    <Compile Include="Assets\Scripts\UI\TickComboBox.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\PoolingListOfObject.cs" />
     <Compile Include="Assets\Scripts\Sword\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemy\NormalEnemy.cs" />
