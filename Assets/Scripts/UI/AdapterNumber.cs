@@ -5,16 +5,50 @@ using UnityEngine.UI;
 
 public class AdapterNumber : MonoBehaviour
 {
-    List<Image> imagesOfNumber = new List<Image>();
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    List<Sprite> imagesOfNumber = new List<Sprite>();
+
+    [SerializeField]
+    List<Image> listOfImages = new List<Image>();
+
+   
+
+    private void Start()
     {
-        
+       
     }
 
-    // Update is called once per frame
-    void Update()
+    private List<int> NumberToTransformImage(int number)
     {
-        
+        List<int> listOfNumber = new List<int>();
+        while (number != 0)
+        {
+            int x = number % 10;
+            listOfNumber.Add(x);
+            number /= 10;
+        }
+        listOfNumber.Reverse(); 
+        return listOfNumber;
+    }
+
+    public List<Sprite> listOfImage(int number)
+    {
+        List<Sprite> images = new List<Sprite>();
+        List<int> numberDigits = NumberToTransformImage(number); 
+
+        foreach (int digit in numberDigits)
+        {
+            images.Add(imagesOfNumber[digit]);
+        }
+
+        int x = 0;
+        for (int i = numberDigits.Count - 1; i >= 0; i--)
+        {
+            listOfImages[x].sprite = images[i];
+            x++;
+            print(numberDigits[i]);
+        }
+
+        return images;
     }
 }

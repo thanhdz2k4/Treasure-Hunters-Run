@@ -5,25 +5,56 @@ using UnityEngine;
 public class Timeline : MonoBehaviour
 {
     [SerializeField]
-    float timerDelay;
+    float timerDelayActive;
 
     [SerializeField]
-    List<GameObject> listOfObjectActives = new List<GameObject>();
+    float timerDelayBehaviour;
+
+    [SerializeField]
+    GameObject[] objectActives;
+
+    [SerializeField]
+    GameObject[] objectActiveBehaviour;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(DelayActive(timerDelay));
+        foreach (var obj in objectActiveBehaviour)
+        {
+            obj.GetComponent<MonoBehaviour>().enabled = false;
+
+        }
+        StartCoroutine(DelayActive(timerDelayActive));
+        StartCoroutine(DelayMonobehaviour(timerDelayBehaviour));
     }
 
     IEnumerator DelayActive(float timer)
     {
-        yield return new WaitForSeconds(timer);
-        foreach(var obj in listOfObjectActives)
+        if(objectActives.Length > 0)
         {
-            obj.SetActive(true);
+            yield return new WaitForSeconds(timer);
+            foreach (var obj in objectActives)
+            {
+                obj.SetActive(true);
+            }
         }
+        
+    }
+
+    IEnumerator DelayMonobehaviour(float timer)
+    {
+        if(objectActiveBehaviour.Length > 0)
+        {
+            yield return new WaitForSeconds(timer);
+            foreach (var obj in objectActiveBehaviour)
+            {
+                obj.GetComponent<MonoBehaviour>().enabled = true;
+
+            }
+
+        }
+        
     }
 
 }

@@ -24,7 +24,13 @@ public class VelocityHandler : MonoBehaviour
 
     [SerializeField]
     float maxVelocity;
+
+    [SerializeField]
+    public float currentDistance { get; private set; }
     public float MaxVelocity => maxVelocity;
+
+    private bool isPause;
+
     private void Awake()
     {
         if (Instance == null)
@@ -39,7 +45,11 @@ public class VelocityHandler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CaculateNewVelocity();
+        if(!isPause)
+        {
+            CaculateNewVelocity();
+        }
+        
     }
 
     private void CaculateNewVelocity()
@@ -49,9 +59,27 @@ public class VelocityHandler : MonoBehaviour
 
         velocity.x += acceleration * Time.fixedDeltaTime;
 
+        currentDistance += (velocity.x * Time.fixedDeltaTime) / 10;
+
         if (velocity.x > maxXVelocity)
         {
             velocity.x = maxXVelocity;
         }
+    }
+
+    public void Pause()
+    {
+        isPause = true;
+    }
+
+    public void Continue()
+    {
+        isPause = false;
+    }
+
+    public void ResetData()
+    {
+        this.acceleration = 0;
+        this.maxVelocity = 0;
     }
 }
