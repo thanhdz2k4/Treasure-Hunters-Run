@@ -23,6 +23,8 @@ public class PlayerAttackState : FSMState
     [SerializeField]
     SpawnSword spawnSword;
 
+    [SerializeField] SFX SFX;
+
     private float timer;
 
     private float timerDelayToRecoverEnergy = 2f;
@@ -60,6 +62,7 @@ public class PlayerAttackState : FSMState
     {
         if(Input.GetKeyDown(KeyCode.A) && energy >= energyToAttack)
         {
+            SFX.PlayThrowKnifeClip();
             SetAnimationAttack(true);
             spawnSword.Spawn(); 
             CalculateRemainEnergy();

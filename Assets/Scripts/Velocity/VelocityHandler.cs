@@ -27,9 +27,12 @@ public class VelocityHandler : MonoBehaviour
 
     [SerializeField]
     public float currentDistance { get; private set; }
+
+    public float record { get; private set; }
     public float MaxVelocity => maxVelocity;
 
     private bool isPause;
+
 
     private void Awake()
     {
@@ -42,6 +45,13 @@ public class VelocityHandler : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void Start()
+    {
+        
+    }
+
+    
 
     private void FixedUpdate()
     {
@@ -79,7 +89,9 @@ public class VelocityHandler : MonoBehaviour
 
     public void ResetData()
     {
+        PlayerPrefs.SetFloat("yourDistance", currentDistance);
         this.acceleration = 0;
         this.maxVelocity = 0;
+        this.currentDistance = 0;
     }
 }

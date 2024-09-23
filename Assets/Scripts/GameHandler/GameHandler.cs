@@ -18,9 +18,6 @@ public class GameHandler : MonoBehaviour
     Transform player;
 
     [SerializeField]
-    Transform Cam;
-
-    [SerializeField]
     Transform grid;
 
     [SerializeField]
@@ -41,16 +38,18 @@ public class GameHandler : MonoBehaviour
     void Update()
     {
         SpawnMapAndEnemy();
-        ResetGame();
         FallGame();
     }
 
     private void FallGame()
     {
-        
-        if(player.transform.localPosition.x + xBound < Cam.position.x || player.transform.localPosition.y + yBound< Cam.position.y)
+
+        if (player.transform.localPosition.x  < xBound || player.transform.localPosition.y < yBound)
         {
             UiHandler.FallGameScreen();
+            VelocityHandler.Instance.Pause();
+
+
         }
     }
 
@@ -108,13 +107,8 @@ public class GameHandler : MonoBehaviour
 
     public void ResetGame()
     {
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            VelocityHandler.Instance.ResetData();
-        }
-        //VelocityHandler.Instance.ResetData();
-        
+        VelocityHandler.Instance.ResetData();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     
