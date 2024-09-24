@@ -14,6 +14,7 @@ public class GameHandler : MonoBehaviour
     [SerializeField]
     UIHandler UiHandler;
 
+
     [SerializeField]
     Transform player;
 
@@ -48,8 +49,6 @@ public class GameHandler : MonoBehaviour
         {
             UiHandler.FallGameScreen();
             VelocityHandler.Instance.Pause();
-
-
         }
     }
 

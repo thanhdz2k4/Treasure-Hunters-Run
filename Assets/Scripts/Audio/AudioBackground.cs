@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioBackground : MonoBehaviour
 {
@@ -12,6 +13,13 @@ public class AudioBackground : MonoBehaviour
 
     [SerializeField]
     AudioClip DuringGameAudio;
+
+    [SerializeField]
+    Slider musicSlider;
+
+    [SerializeField]
+    TickComboBox comboBoxMusic;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +43,7 @@ public class AudioBackground : MonoBehaviour
 
     public void ChangeDuringGameAudio()
     {
+       
         if (DuringGameAudio != null)
         {
             audioSource.clip = DuringGameAudio;
@@ -45,5 +54,27 @@ public class AudioBackground : MonoBehaviour
         {
             Debug.LogError("DuringGameAudio not assigned!");
         }
+
+
+        UpdateVolume();
+
+
     }
+
+
+    public void UpdateVolume()
+    {
+        this.audioSource.volume = musicSlider.value;
+        if (comboBoxMusic.isTick)
+        {
+            audioSource.Pause();
+        }
+        else
+        {
+            audioSource.Play();
+
+        }
+    }
+
+ 
 }
