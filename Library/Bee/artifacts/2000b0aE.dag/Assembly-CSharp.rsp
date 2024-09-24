@@ -374,6 +374,7 @@
 "Assets/Scripts/Color/MaterialColorSetter.cs"
 "Assets/Scripts/Control/Jump/PlayerJumpState.cs"
 "Assets/Scripts/Control/Move/Ground/MoveBehind.cs"
+"Assets/Scripts/DayLight/DayLightSystem.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyHandler.cs"
 "Assets/Scripts/Enemy/NormalEnemy.cs"
