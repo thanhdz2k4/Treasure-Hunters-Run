@@ -101,8 +101,10 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:DOTWEEN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -310,6 +312,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
@@ -393,6 +396,8 @@
 "Assets/Scripts/Spawn/SpawnMap/SpawnMap.cs"
 "Assets/Scripts/State/AttackState/PlayerAttackState.cs"
 "Assets/Scripts/Sword/Sword.cs"
+"Assets/Scripts/Timeline/Boost.cs"
+"Assets/Scripts/Timeline/ReplayTimeline.cs"
 "Assets/Scripts/Timeline/Timeline.cs"
 "Assets/Scripts/UI/AdapterNumber.cs"
 "Assets/Scripts/UI/TickComboBox.cs"
