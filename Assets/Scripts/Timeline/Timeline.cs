@@ -11,10 +11,17 @@ public class Timeline : MonoBehaviour
     float timerDelayBehaviour;
 
     [SerializeField]
+    float timerDelayUnactiveObjects;
+
+
+    [SerializeField]
     GameObject[] objectActives;
 
     [SerializeField]
     GameObject[] objectActiveBehaviour;
+
+    [SerializeField]
+    GameObject[] objectUnactives;
 
 
     // Start is called before the first frame update
@@ -27,6 +34,7 @@ public class Timeline : MonoBehaviour
         }
         StartCoroutine(DelayActive(timerDelayActive));
         StartCoroutine(DelayMonobehaviour(timerDelayBehaviour));
+        StartCoroutine(DelayUnactiveObjects(timerDelayUnactiveObjects));
     }
 
     IEnumerator DelayActive(float timer)
@@ -55,6 +63,21 @@ public class Timeline : MonoBehaviour
 
         }
         
+    }
+
+    IEnumerator DelayUnactiveObjects(float timer)
+    {
+        if (objectActiveBehaviour.Length > 0)
+        {
+            yield return new WaitForSeconds(timer);
+            foreach (var obj in objectUnactives)
+            {
+                obj.SetActive(false);
+
+            }
+
+        }
+
     }
 
 }
