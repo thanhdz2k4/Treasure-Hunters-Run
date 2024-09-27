@@ -7,6 +7,7 @@ public enum FSMStateID
     None = 0,
     Jumping,
     Attacking,
+    Boosting,
 }
 
 public abstract class FSMState : MonoBehaviour

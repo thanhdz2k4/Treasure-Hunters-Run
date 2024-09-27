@@ -38,6 +38,12 @@ public class PlayerController : AdvancedFSM
     }
     protected override void FSMUpdate()
     {
+        if (Physics2D.Raycast(transform.position, Vector2.down, 1f))
+        {
+
+            Debug.Log("OnTheGround");
+        }
+        Debug.DrawRay(transform.position, Vector2.down * 1f, Color.red);
         KeyCode pressedKey = GetPressedKey();  // Detect pressed key
         if (pressedKey != KeyCode.None)
         {

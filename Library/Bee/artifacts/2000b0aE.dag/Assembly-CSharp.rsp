@@ -375,6 +375,7 @@
 "Assets/Scripts/BackGround/ParallaxBackground.cs"
 "Assets/Scripts/Color/LightColorController.cs"
 "Assets/Scripts/Color/MaterialColorSetter.cs"
+"Assets/Scripts/Control/Boost/PlayerBoostState.cs"
 "Assets/Scripts/Control/Jump/PlayerJumpState.cs"
 "Assets/Scripts/Control/Move/Ground/MoveBehind.cs"
 "Assets/Scripts/DayLight/DayLightSystem.cs"

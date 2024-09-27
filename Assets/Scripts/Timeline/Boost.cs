@@ -44,6 +44,7 @@ public class BoostTimeline : MonoBehaviour
 
     void Boost()
     {
+        Boat.SetActive(true);
         // Calculate the distance to the target position
         float distance = Vector3.Distance(position.position, Boat.transform.position);
 
