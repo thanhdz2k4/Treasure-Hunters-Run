@@ -33,6 +33,9 @@ public class VelocityHandler : MonoBehaviour
 
     private bool isPause;
 
+    [SerializeField]
+    private float speedMultiply = 1;
+
 
     private void Awake()
     {
@@ -67,14 +70,18 @@ public class VelocityHandler : MonoBehaviour
         float velocityRatio = velocity.x / maxXVelocity;
         acceleration = maxAcceleration * (1 - velocityRatio);
 
-        velocity.x += acceleration * Time.fixedDeltaTime;
+        velocity.x += acceleration * Time.fixedDeltaTime * speedMultiply;
 
         currentDistance += (velocity.x * Time.fixedDeltaTime) / 10;
 
-        if (velocity.x > maxXVelocity)
-        {
-            velocity.x = maxXVelocity;
-        }
+
+        
+            if (velocity.x > maxXVelocity * speedMultiply)
+            {
+                velocity.x = maxXVelocity * speedMultiply;
+            }
+        
+       
     }
 
     public void Pause()
@@ -93,5 +100,11 @@ public class VelocityHandler : MonoBehaviour
         this.acceleration = 0;
         this.maxVelocity = 0;
         this.currentDistance = 0;
+    }
+
+    public void SpeedMultiplier(float speedMultiplier)
+    {
+        this.speedMultiply = speedMultiplier;
+        
     }
 }

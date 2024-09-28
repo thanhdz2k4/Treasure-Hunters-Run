@@ -9,10 +9,14 @@ public class PlayerController : AdvancedFSM
 
     [SerializeField]
     PlayerAttackState AttackState;
+
+    [SerializeField]
+    PlayerBoostState boostState;
     protected override void Initialize()
     {
         JumpState = GetComponent<PlayerJumpState>();
         AttackState = GetComponent<PlayerAttackState>();
+        boostState = GetComponent<PlayerBoostState>();
         ContructFSM();
 
        
@@ -62,11 +66,16 @@ public class PlayerController : AdvancedFSM
     private void ContructFSM()
     {
         AttackState.AddTransition(KeyCode.Space, FSMStateID.Jumping);
+        AttackState.AddTransition(KeyCode.B, FSMStateID.Boosting);
         AddFSMState(AttackState);
 
         
         JumpState.AddTransition(KeyCode.A, FSMStateID.Attacking);
+        JumpState.AddTransition(KeyCode.B, FSMStateID.Boosting);
         AddFSMState(JumpState);
+
+        boostState.AddTransition(KeyCode.Space, FSMStateID.Jumping);
+        AddFSMState(boostState);
 
        
         

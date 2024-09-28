@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,9 +6,16 @@ using UnityEngine;
 public class PlayerBoostState : FSMState
 {
     [SerializeField] Animator animator;
-    [SerializeField] float timerDelayBoost;
-    float timer;
-    bool isGround;
+    [Header("Visuals")]
+    [Tooltip("Play back particles when boost state is active")]
+    [SerializeField] private ParticleSystem BoostVFX;
+
+    private Coroutine speedBoostCoroutine;
+    private bool isModifierActive = false;
+    private float duration = 0f;
+
+
+
 
     private void Start()
     {
@@ -28,25 +36,13 @@ public class PlayerBoostState : FSMState
 
     private void DoBoosting()
     {
-        timer += Time.deltaTime;
-        if(timer >= timerDelayBoost)
-        {
-            animator.SetBool("isBoosting", true);
-            timer = 0;
-        }
-        else
-        {
-            animator.SetBool("isBoosting", false);
-        }
+        ModifySpeed(3, 5f);
     }
 
-    private void IsOnGround()
+    public void ModifySpeed(float speedMultiplier, float duration)
     {
-        if (Physics2D.Raycast(transform.position, Vector2.down, 1f))
-        {
-
-            Debug.Log("OnTheGround");
-        }
+        Debug.Log("speedMultiplier " + speedMultiplier);
+        VelocityHandler.Instance.SpeedMultiplier(speedMultiplier);
     }
 
     

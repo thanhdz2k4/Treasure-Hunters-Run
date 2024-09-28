@@ -46,7 +46,7 @@ Material:
     - Color_353D90DF: {r: 0, g: 0, b: 0, a: 0}
     - _FogColor: {r: 0.14159843, g: 0.647413, b: 0.6981132, a: 0}
     - _TimeOfDay: {r: 1, g: 1, b: 1, a: 0}
-    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.6698183, g: 0.6870354, b: 0.697406, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6064006172244570289
 MonoBehaviour:

@@ -71,7 +71,7 @@ public class AudioBackground : MonoBehaviour
         }
         else
         {
-            audioSource.Play();
+            //audioSource.Play();
 
         }
     }

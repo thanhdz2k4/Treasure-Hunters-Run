@@ -65,7 +65,7 @@ public class DayLightSystem : MonoBehaviour
         {
             remain = hours - 10;
             this.GlobalLight.intensity = 1 + 3 * (remain / 10);
-            Debug.Log("Remain = " + remain);
+            
         }
         
     }
