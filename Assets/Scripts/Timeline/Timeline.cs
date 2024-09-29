@@ -72,6 +72,7 @@ public class Timeline : MonoBehaviour
             yield return new WaitForSeconds(timer);
             foreach (var obj in objectUnactives)
             {
+                obj.transform.SetParent(null);
                 obj.SetActive(false);
 
             }

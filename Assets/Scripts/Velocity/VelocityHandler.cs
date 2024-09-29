@@ -7,7 +7,7 @@ public class VelocityHandler : MonoBehaviour
 
     [SerializeField]
     Vector2 velocity;
-    public Vector2 Velocity => velocity;
+    public Vector2 Velocity => velocity / speedSlow;
 
     [SerializeField]
     float maxAcceleration = 10f;
@@ -35,6 +35,9 @@ public class VelocityHandler : MonoBehaviour
 
     [SerializeField]
     private float speedMultiply = 1;
+
+    [SerializeField]
+    private float speedSlow;
 
 
     private void Awake()
@@ -80,7 +83,8 @@ public class VelocityHandler : MonoBehaviour
             {
                 velocity.x = maxXVelocity * speedMultiply;
             }
-        
+
+
        
     }
 
@@ -104,7 +108,9 @@ public class VelocityHandler : MonoBehaviour
 
     public void SpeedMultiplier(float speedMultiplier)
     {
-        this.speedMultiply = speedMultiplier;
+        this.speedSlow = speedMultiplier;
+
+        Debug.Log("SpeedSlow: " + speedSlow);
         
     }
 }

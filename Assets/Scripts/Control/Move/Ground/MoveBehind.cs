@@ -11,9 +11,8 @@ public class MoveBehind : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 pos = transform.position;
-        float velocity = VelocityHandler.Instance.Velocity.x / speedSlow; 
+        float velocity = VelocityHandler.Instance.Velocity.x;
         pos.x -= velocity * Time.fixedDeltaTime;
-
         transform.position = pos;
     }
 }

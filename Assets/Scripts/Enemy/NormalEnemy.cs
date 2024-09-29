@@ -70,7 +70,7 @@ public class NormalEnemy : Enemy
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Sword"))
+        if (collision.gameObject.CompareTag("Sword") || collision.gameObject.CompareTag("Ship"))
         {
             Death();
         }

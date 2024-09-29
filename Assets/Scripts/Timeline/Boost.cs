@@ -21,14 +21,25 @@ public class BoostTimeline : MonoBehaviour
     [SerializeField]
     float distanceToMove;
 
+    [SerializeField]
     bool isActive;
 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    float timer;
+
+    [SerializeField]
+    float timerDelay;
+
+    [SerializeField]
+    Jump Jump;
+
+    [SerializeField]
+    Collider2D myFoot;
+
+    private void Start()
     {
-
+        Jump = GetComponent<Jump>();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -38,8 +49,30 @@ public class BoostTimeline : MonoBehaviour
         }
         if(isActive)
         {
-            Boat.transform.rotation = Quaternion.Slerp(Boat.transform.rotation, Quaternion.Euler(0, 0, 0), 2 * Time.fixedDeltaTime); 
+            Boat.transform.rotation = Quaternion.Slerp(Boat.transform.rotation, Quaternion.Euler(0, 0, 0), 2 * Time.fixedDeltaTime);
+           VelocityHandler.Instance.SpeedMultiplier(3);
+
+            //Player.transform.SetParent(Boat.transform);
         }
+        else
+        {
+            VelocityHandler.Instance.SpeedMultiplier(10);
+
+        }
+
+        Jump.DoJumping(IsGround());
+
+
+       /* timer += Time.deltaTime;
+        if (isActive)
+        {
+            if (timer >= timerDelay)
+            {
+                isActive = false;
+                timer = 0;
+            }
+        }*/
+
     }
 
     void Boost()
@@ -58,8 +91,15 @@ public class BoostTimeline : MonoBehaviour
 
     void BoastShake()
     {
-
         this.isActive = true;
+        
 
+    }
+
+    public bool IsGround()
+    {
+        Debug.Log( this.myFoot.IsTouchingLayers(LayerMask.GetMask("Ground")) || this.myFoot.IsTouchingLayers(LayerMask.GetMask("Bound")));
+        // Check if the player's foot collider is touching the ground layer
+        return this.myFoot.IsTouchingLayers(LayerMask.GetMask("Ground")) || this.myFoot.IsTouchingLayers(LayerMask.GetMask("Bound"));
     }
 }

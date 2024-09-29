@@ -91,8 +91,8 @@
     <Compile Include="Assets\Scripts\FSM\FSM.cs" />
     <Compile Include="Assets\Scripts\BackGround\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioBackground.cs" />
-    <Compile Include="Assets\Scripts\Control\Boost\PlayerBoostState.cs" />
     <Compile Include="Assets\Scripts\Enemy\NormalEnemy.cs" />
+    <Compile Include="Assets\Scripts\Control\Jump\Jump.cs" />
     <Compile Include="Assets\Scripts\Timeline\Timeline.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\Pooling.cs" />
   </ItemGroup>

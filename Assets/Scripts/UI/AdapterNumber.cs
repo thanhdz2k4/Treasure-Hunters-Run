@@ -46,7 +46,7 @@ public class AdapterNumber : MonoBehaviour
         {
             listOfImages[x].sprite = images[i];
             x++;
-            print(numberDigits[i]);
+           
         }
 
         return images;
