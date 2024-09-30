@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Audio\SFX.cs" />
+    <Compile Include="Assets\Scripts\Timeline\BoostTimeline.cs" />
     <Compile Include="Assets\Scripts\UI\AdapterNumber.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\PoolingObject.cs" />
     <Compile Include="Assets\Scripts\Control\Jump\PlayerJumpState.cs" />

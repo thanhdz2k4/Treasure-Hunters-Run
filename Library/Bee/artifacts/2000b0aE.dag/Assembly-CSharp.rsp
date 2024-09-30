@@ -398,6 +398,7 @@
 "Assets/Scripts/State/AttackState/PlayerAttackState.cs"
 "Assets/Scripts/Sword/Sword.cs"
 "Assets/Scripts/Timeline/Boost.cs"
+"Assets/Scripts/Timeline/BoostTimeline.cs"
 "Assets/Scripts/Timeline/ReplayTimeline.cs"
 "Assets/Scripts/Timeline/Timeline.cs"
 "Assets/Scripts/UI/AdapterNumber.cs"

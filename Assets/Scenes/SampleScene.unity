@@ -198,7 +198,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6202,7 +6202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &247833805
 Transform:
   m_ObjectHideFlags: 0
@@ -6212,7 +6212,7 @@ Transform:
   m_GameObject: {fileID: 247833804}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.39, y: 1.74, z: 10}
+  m_LocalPosition: {x: -0.39999962, y: 1.1299999, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6280,8 +6280,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.47321537, y: -1.8830614}
-  m_Size: {x: 4.411362, y: 1.1638345}
+  m_Offset: {x: -0.47321537, y: -1.8277838}
+  m_Size: {x: 4.4113626, y: 1.0532793}
   m_Direction: 1
 --- !u!114 &247833809
 MonoBehaviour:
@@ -6307,19 +6307,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 247833804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9f9ba5536f728e478e41821847f5611, type: 3}
+  m_Script: {fileID: 11500000, guid: 89da2b1817606474d900cc3f7133ba38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {fileID: 1229997679}
-  Boat: {fileID: 747162855}
   Player: {fileID: 938091938}
-  speedMove: 2
-  distanceToMove: 0
-  isActive: 0
-  timer: 0
-  timerDelay: 0
   Jump: {fileID: 247833809}
   myFoot: {fileID: 247833808}
+  timer: 0
+  timerDelay: 15
 --- !u!1 &260917182
 GameObject:
   m_ObjectHideFlags: 0
@@ -28970,6 +28965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1229997679}
+  - component: {fileID: 1229997680}
   m_Layer: 0
   m_Name: boost_pst
   m_TagString: Untagged
@@ -28992,6 +28988,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1229997680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229997678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f9ba5536f728e478e41821847f5611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {fileID: 1229997679}
+  Boat: {fileID: 747162855}
+  Player: {fileID: 938091938}
+  Player_Boat: {fileID: 247833804}
+  speedMove: 2
+  isActive: 0
 --- !u!1001 &1233136083
 PrefabInstance:
   m_ObjectHideFlags: 0
