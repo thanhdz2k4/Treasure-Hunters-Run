@@ -9,6 +9,12 @@ public class Boost : MonoBehaviour
     GameObject Player;
 
     [SerializeField]
+    Transform Ship;
+
+    [SerializeField]
+    Transform Ship_Position_After_Boost;
+
+    [SerializeField]
     Jump Jump;
 
     [SerializeField]
@@ -18,7 +24,7 @@ public class Boost : MonoBehaviour
     float timer;
 
     [SerializeField]
-    float timerDelay = 3;
+    float timerDelay = 2;
 
     private void Start()
     {
@@ -35,9 +41,10 @@ public class Boost : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        if(timer >= timerDelay)
+        if(timer >= timerDelay && this.myFoot.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             VelocityHandler.Instance.SpeedMultiplier(10);
+            Ship.position = Ship_Position_After_Boost.position;
             gameObject.SetActive(false);
             Player.SetActive(true);
             timer = 0;

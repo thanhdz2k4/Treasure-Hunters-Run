@@ -19,6 +19,9 @@ public class GameHandler : MonoBehaviour
     Transform player;
 
     [SerializeField]
+    Transform PlayerBoost;
+
+    [SerializeField]
     Transform grid;
 
     [SerializeField]
@@ -46,6 +49,12 @@ public class GameHandler : MonoBehaviour
     {
 
         if (player.transform.localPosition.x  < xBound || player.transform.localPosition.y < yBound)
+        {
+            UiHandler.FallGameScreen();
+            VelocityHandler.Instance.Pause();
+        }
+
+        if (PlayerBoost.transform.localPosition.x < xBound || PlayerBoost.transform.localPosition.y < yBound)
         {
             UiHandler.FallGameScreen();
             VelocityHandler.Instance.Pause();
