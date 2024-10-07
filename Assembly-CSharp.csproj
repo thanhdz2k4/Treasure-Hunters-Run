@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Control\Jump\PlayerJumpState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\DayLight\DayLightSystem.cs" />
+    <Compile Include="Assets\Scripts\Factory\ConcreateFactoryCoin.cs" />
     <Compile Include="Assets\Scripts\UI\UIHandler.cs" />
     <Compile Include="Assets\Scripts\Interface\IJumping.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
@@ -78,12 +79,14 @@
     <Compile Include="Assets\Scripts\Timeline\ReplayTimeline.cs" />
     <Compile Include="Assets\Scripts\Timeline\Boost.cs" />
     <Compile Include="Assets\Scripts\Color\LightColorController.cs" />
+    <Compile Include="Assets\Scripts\Factory\Factory.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCamera.cs" />
     <Compile Include="Assets\Scripts\Velocity\VelocityHandler.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Save\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\State\AttackState\PlayerAttackState.cs" />
     <Compile Include="Assets\Scripts\FSM\AdvancedFSM.cs" />
+    <Compile Include="Assets\Scripts\Product\BoostItem.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHandler.cs" />
     <Compile Include="Assets\Scripts\UI_Animation\UIAnimationController.cs" />
     <Compile Include="Assets\Scripts\Color\MaterialColorSetter.cs" />
@@ -93,8 +96,10 @@
     <Compile Include="Assets\Scripts\BackGround\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioBackground.cs" />
     <Compile Include="Assets\Scripts\Enemy\NormalEnemy.cs" />
+    <Compile Include="Assets\Scripts\Product\IProduct.cs" />
     <Compile Include="Assets\Scripts\Control\Jump\Jump.cs" />
     <Compile Include="Assets\Scripts\Timeline\Timeline.cs" />
+    <Compile Include="Assets\Scripts\Product\Coin.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\Pooling.cs" />
   </ItemGroup>
   <ItemGroup>

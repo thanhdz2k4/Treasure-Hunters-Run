@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameHandler : MonoBehaviour
 {
     [SerializeField]
+    Factory[] factories;
+
+    private List<GameObject> createProducts = new List<GameObject>();
+
+    [SerializeField]
     SpawnMap spawnMap;
 
     [SerializeField]
@@ -41,7 +46,7 @@ public class GameHandler : MonoBehaviour
 
     void Update()
     {
-        SpawnMapAndEnemy();
+        SpawnProcs();
         FallGame();
     }
 
@@ -72,18 +77,39 @@ public class GameHandler : MonoBehaviour
     // Update is called once per frame
     
 
-    private void SpawnMapAndEnemy()
+    private void SpawnProcs()
     {
         Transform pos = spawnMap.MakeMap();
         if(pos != null)
         {
             Transform child = pos.Find("PositionSpawnEnemy");
+            Transform postionSpawnCoin = pos.Find("PositionSpawnCoin");
             if(child != null)
             {
                 GetPositionToSpawnEnemy(child);
+                
+            }
+
+            if(postionSpawnCoin != null)
+            {
+                GetProductFromFactory(0, postionSpawnCoin);
             }
            
         }
+    }
+
+    private void GetProductFromFactory(int index, Transform positionToSpawn)
+    {
+        if(index < factories.Length)
+        {
+            Factory selectedFactory = factories[index];
+            IProduct product = selectedFactory.GetProduct(positionToSpawn);
+            if(product is Component component)
+            {
+                createProducts.Add(component.gameObject);
+            }
+        }
+        
     }
 
     public void PauseGame()
@@ -117,6 +143,7 @@ public class GameHandler : MonoBehaviour
     {
         VelocityHandler.Instance.ResetData();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SaveSystem.Instance.ResetData();
     }
 
     

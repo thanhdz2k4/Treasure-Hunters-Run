@@ -72,7 +72,9 @@ public class NormalEnemy : Enemy
     {
         if (collision.gameObject.CompareTag("Sword") || collision.gameObject.CompareTag("Ship"))
         {
+            SaveSystem.Instance.AddKill(1);
             Death();
+            
         }
     }
 

@@ -10,6 +10,8 @@ public class UIHandler : MonoBehaviour
     [SerializeField] GameObject GamePlay_Screen;
     [SerializeField] AdapterNumber adapterNumberInFallGameScreen;
     [SerializeField] AdapterNumber adapterNumberInRecoreGame;
+    [SerializeField] TMP_Text coinsText;
+    [SerializeField] TMP_Text killerText;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,9 @@ public class UIHandler : MonoBehaviour
     // Update is called once per frames
     void Update()
     {
-        distanceText.text = "Distance: " + Mathf.FloorToInt(VelocityHandler.Instance.currentDistance);
+        distanceText.text = ": " + Mathf.FloorToInt(VelocityHandler.Instance.currentDistance) + " m";
+        coinsText.text = ": " + SaveSystem.Instance.currentCoins;
+        killerText.text = ": " + SaveSystem.Instance.currentSkill;
     }
 
     public void FallGameScreen()

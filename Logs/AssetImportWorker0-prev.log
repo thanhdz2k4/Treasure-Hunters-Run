@@ -15,7 +15,7 @@ E:/Githup Project/Treasure-Hunters-Run
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8712
+12835
 Successfully changed project path to: E:/Githup Project/Treasure-Hunters-Run
 E:/Githup Project/Treasure-Hunters-Run
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Githup Project/Treasure-Hunters-Run
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20264] Host "[IP] 192.168.44.2 [Port] 0 [Flags] 2 [Guid] 3492214740 [EditorId] 3492214740 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4NICKTDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16000] Host "[IP] 192.168.44.2 [Port] 0 [Flags] 2 [Guid] 556891016 [EditorId] 556891016 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4NICKTDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20264] Host "[IP] 192.168.44.2 [Port] 0 [Flags] 2 [Guid] 3492214740 [EditorId] 3492214740 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4NICKTDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16000] Host "[IP] 192.168.44.2 [Port] 0 [Flags] 2 [Guid] 556891016 [EditorId] 556891016 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-4NICKTDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 10.70 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -71,51 +71,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011978 seconds.
-- Loaded All Assemblies, in  0.557 seconds
+Registered in 0.012640 seconds.
+- Loaded All Assemblies, in  0.711 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 291 ms
+Android Extension - Scanning For ADB Devices 600 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.758 seconds
-Domain Reload Profiling: 1314ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  1.305 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (147ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (182ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (325ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (759ms)
+	FinalizeReload (1305ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (676ms)
+		SetupLoadedEditorAssemblies (1182ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (439ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (843ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 1314ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.945 seconds
-Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.482 seconds
+Refreshing native plugins compatible for Editor in 9.51 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -134,48 +134,70 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.449 seconds
-Domain Reload Profiling: 3392ms
-	BeginReloadAssembly (227ms)
+- Finished resetting the current domain, in  1.250 seconds
+Domain Reload Profiling: 2730ms
+	BeginReloadAssembly (273ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (1518ms)
-		LoadAssemblies (1235ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (1001ms)
+		LoadAssemblies (635ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (424ms)
-			TypeCache.Refresh (342ms)
-				TypeCache.ScanAssembly (304ms)
-			ScanForSourceGeneratedMonoScriptInfo (61ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1450ms)
+		AnalyzeDomain (519ms)
+			TypeCache.Refresh (441ms)
+				TypeCache.ScanAssembly (400ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1250ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1045ms)
+		SetupLoadedEditorAssemblies (939ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
+			InitializePlatformSupportModulesInManaged (35ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (691ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (635ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5724 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 93 unused Assets / (226.8 KB). Loaded Objects now: 6210.
-Memory consumption went from 252.2 MB to 252.0 MB.
-Total: 7.969400 ms (FindLiveObjects: 1.885000 ms CreateObjectMapping: 1.832000 ms MarkObjects: 3.837500 ms  DeleteObjects: 0.412000 ms)
+Unloading 5729 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (226.6 KB). Loaded Objects now: 6215.
+Memory consumption went from 252.4 MB to 252.1 MB.
+Total: 9.619300 ms (FindLiveObjects: 1.754900 ms CreateObjectMapping: 1.415500 ms MarkObjects: 5.898300 ms  DeleteObjects: 0.547900 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (211.0 KB). Loaded Objects now: 6215.
+Memory consumption went from 134.4 MB to 134.2 MB.
+Total: 7.133600 ms (FindLiveObjects: 0.644400 ms CreateObjectMapping: 0.558300 ms MarkObjects: 5.556700 ms  DeleteObjects: 0.372500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -192,1345 +214,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58468.404733 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c08addf8988eb866f85f11c64bdeab3') in 0.134252 seconds
+  Time since last request: 257937.116217 seconds.
+  path: Assets/Prefab/Item/Coin.prefab
+  artifactKey: Guid(c247db7edc6b09e46934211a9ddad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item/Coin.prefab using Guid(c247db7edc6b09e46934211a9ddad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc81df85b59141fca71a5f299de0244') in 0.413122 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 20.193131 seconds.
-  path: Assets/Graphics/icon-sheet0.png
-  artifactKey: Guid(2e6e9d3f8677a1d4fba680dcf2cee045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/icon-sheet0.png using Guid(2e6e9d3f8677a1d4fba680dcf2cee045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c069a7b044e43e7ebaa1f2f461498e94') in 0.023132 seconds
+  Time since last request: 6.707008 seconds.
+  path: Assets/Prefab/Item/Coin.prefab
+  artifactKey: Guid(c247db7edc6b09e46934211a9ddad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item/Coin.prefab using Guid(c247db7edc6b09e46934211a9ddad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9226ee4cfec97d17d2f9f6d211df5ea0') in 0.022940 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 12.393711 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21469b252c2eef54daf007d9553dd0c') in 0.020116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.901966 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c959046f20672b10f0abdff8607f97c') in 0.016155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 183.018350 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fec5e9d149d0cd9630aa3e49ee9940') in 0.049821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 36.013025 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eef7a43132523da041e6e3040b5368') in 0.034542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.450311 seconds.
-  path: Assets/Graphics/pj-sheet0.png
-  artifactKey: Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/pj-sheet0.png using Guid(7674012f2fe9c274d81c04e7d7f4e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53448021a02d7448fafe5436dea17416') in 0.032059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 25.578613 seconds.
-  path: Assets/Graphics/OnePiece/icon-sheet0.png
-  artifactKey: Guid(f502c7657d7d79e40aaaed97761033e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/icon-sheet0.png using Guid(f502c7657d7d79e40aaaed97761033e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7bc7c900f43b8c2afa6be12a472068') in 0.025880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 25.733427 seconds.
-  path: Assets/Graphics/OnePiece/Run.anim
-  artifactKey: Guid(3fa70fb0b138bd24590c35e92ff6541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/Run.anim using Guid(3fa70fb0b138bd24590c35e92ff6541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0add4a08e7ce10f64bf1a9a7cfaacd') in 0.001584 seconds
+  Time since last request: 15.405958 seconds.
+  path: Assets/Graphics/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/Coin.anim
+  artifactKey: Guid(2b3e1fb02aa9c164a8bfd02292f7eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/Coin.anim using Guid(2b3e1fb02aa9c164a8bfd02292f7eae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a534d2e0426e23d59bd4c70a6ca698') in 0.001772 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 132.877983 seconds.
-  path: Assets/Graphics/OnePiece/pj-sheet0.png
-  artifactKey: Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/pj-sheet0.png using Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707df5d51bf363eb90a067cc3fec3210') in 0.039824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 81.939623 seconds.
-  path: Assets/Graphics/OnePiece/pj-sheet0.png
-  artifactKey: Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/pj-sheet0.png using Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b9808411d5799b6403d7ce841e33d') in 0.066219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 111.785919 seconds.
-  path: Assets/Graphics/OnePiece/pj-sheet0.png
-  artifactKey: Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/pj-sheet0.png using Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab2d20a79351e2d44b26aa9978a6715') in 0.059218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 121.342255 seconds.
-  path: Assets/Graphics/OnePiece/pj-sheet0.png
-  artifactKey: Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/OnePiece/pj-sheet0.png using Guid(78b30d1ac61f8e248a77bcec6d6b209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c589e6a2994111bc64af3c863c30387') in 0.063984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 540.774679 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/1.png
-  artifactKey: Guid(ffd5ab15edbb63f45850f38b9db3c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/1.png using Guid(ffd5ab15edbb63f45850f38b9db3c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a957a2edec8f98373bdb750187da738a') in 0.025953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/11.png
-  artifactKey: Guid(ba3e7f896f56d58499a5f9c1133d986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/11.png using Guid(ba3e7f896f56d58499a5f9c1133d986b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5ca9def57fb63da0248e74f3ee9bdb') in 0.016832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/4.png
-  artifactKey: Guid(1fbf6c6abc27007439875e53d8ecf328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/4.png using Guid(1fbf6c6abc27007439875e53d8ecf328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b3c604bb886883966f4b9aa9e3e348') in 0.024253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/6.png
-  artifactKey: Guid(58cc930bb296eba47946f217bf0af612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/6.png using Guid(58cc930bb296eba47946f217bf0af612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b971a3d8ec45898d29a2b017da1a2198') in 0.024255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/15.png
-  artifactKey: Guid(053855a0d8136db4d8dc92b2fdf1e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/15.png using Guid(053855a0d8136db4d8dc92b2fdf1e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4f77b4543f07b07da5a19fad510809') in 0.019886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/Inventory (guide).png
-  artifactKey: Guid(65bcb29291cb77b449e955a9771d7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/Inventory (guide).png using Guid(65bcb29291cb77b449e955a9771d7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ca307f7935a1f430215b003d739534') in 0.026449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/8.png
-  artifactKey: Guid(a082f84d51d8b7d49a4466f8dee7b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/8.png using Guid(a082f84d51d8b7d49a4466f8dee7b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad7b0ca84b68163b2fbb69b208a0a6e') in 0.025810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/9.png
-  artifactKey: Guid(7c1249c6385e5684ea7d908bec6b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Inventory/9.png using Guid(7c1249c6385e5684ea7d908bec6b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09880c9243c8fdb46e46753c4f77162a') in 0.028337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 121.544209 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/1.png
-  artifactKey: Guid(97aff4763e0b2a540848b1f9166fca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/1.png using Guid(97aff4763e0b2a540848b1f9166fca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8327b295426f64ac398d1010ebc63455') in 0.018299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/3.png
-  artifactKey: Guid(97b6207bde64edb43a14be207ca2be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/3.png using Guid(97b6207bde64edb43a14be207ca2be15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7516bfc1e3b4d057b9d6e1e1e848bb') in 0.025929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/7.png
-  artifactKey: Guid(6e45e558c6e6c774589941d220552bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/7.png using Guid(6e45e558c6e6c774589941d220552bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f0633aa75603cdbc153ef839e8caac') in 0.025543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/13.png
-  artifactKey: Guid(26832ac72d0fb1b449fcdcb3b06e66bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/13.png using Guid(26832ac72d0fb1b449fcdcb3b06e66bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26ee99f6b06d2796bc98bd6d355489e') in 0.024100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/18.png
-  artifactKey: Guid(9081480b9c6a8bf4d82261e64ce051c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/18.png using Guid(9081480b9c6a8bf4d82261e64ce051c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf58ad90476965ffb9d9e9025f815fc') in 0.025725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/21.png
-  artifactKey: Guid(309e8f1f7cdfb5b45b4008b8327bbab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/21.png using Guid(309e8f1f7cdfb5b45b4008b8327bbab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2350a5601c45eef6ac02e3dff02d798a') in 0.022070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/17.png
-  artifactKey: Guid(1a97ca34436de5740adc6283acd5fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/17.png using Guid(1a97ca34436de5740adc6283acd5fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02475138e35632c4996de0935b64cab') in 0.022868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/30.png
-  artifactKey: Guid(f75fa6e735adff04286b46b8427e227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/30.png using Guid(f75fa6e735adff04286b46b8427e227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a70811d0662757e5df57f83e5a5ab') in 0.033629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/Big Banner (guide).png
-  artifactKey: Guid(8489086198d41634ca63d3ee357b4b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/Big Banner (guide).png using Guid(8489086198d41634ca63d3ee357b4b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f005433a837c54a8b959bd13ab2fe74d') in 0.034008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/8.png
-  artifactKey: Guid(a07f211b0c07a00489ea0adc2e6481b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/8.png using Guid(a07f211b0c07a00489ea0adc2e6481b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2e173c677e276f4f21a4cadadd9e8b') in 0.026620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/23.png
-  artifactKey: Guid(9ef37d30d42aa724dab04d805a54e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/23.png using Guid(9ef37d30d42aa724dab04d805a54e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0250a361280b7e26a56ccdcf39904348') in 0.025367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/19.png
-  artifactKey: Guid(fc8b550a63dce264492ab71421da8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/19.png using Guid(fc8b550a63dce264492ab71421da8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050bd1c329b7eca17fc1ef2bc7b56d86') in 0.028434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/25.png
-  artifactKey: Guid(576dcfb3c2b2b3546a6108aa01a5c41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/25.png using Guid(576dcfb3c2b2b3546a6108aa01a5c41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2530a64a84549cf8bac30235a77fd0') in 0.026073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/31.png
-  artifactKey: Guid(9c0f9c05eb167a149a16d6d3ecac1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/31.png using Guid(9c0f9c05eb167a149a16d6d3ecac1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920347f94b9be59accc3aa22845a3588') in 0.026973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/28.png
-  artifactKey: Guid(9724c98f96b2a9d40aa020ba9f0b3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/28.png using Guid(9724c98f96b2a9d40aa020ba9f0b3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9912d4bd1e944a2c200dc88ce358c1d4') in 0.025609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/32.png
-  artifactKey: Guid(7e970446eed948f4ebb4510399b9943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/32.png using Guid(7e970446eed948f4ebb4510399b9943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed076403977fe8802834060c7981718c') in 0.025551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/5.png
-  artifactKey: Guid(642b70f4d7a5b1f418a06eac3f52d659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/5.png using Guid(642b70f4d7a5b1f418a06eac3f52d659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea31828237192cfaf0550c86e455848') in 0.025584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.347788 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/1.png
-  artifactKey: Guid(c842f15d67e27474a9ab29650597f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/1.png using Guid(c842f15d67e27474a9ab29650597f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629a8c74abd6484986d8ad10b2dbd35c') in 0.018847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/8.png
-  artifactKey: Guid(8f6abc6470530fc4999ddf3e5e49af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/8.png using Guid(8f6abc6470530fc4999ddf3e5e49af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c111fa513afad96f024c3cd2a6ffad03') in 0.023519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/16.png
-  artifactKey: Guid(bc3f2ed8d5067d14e83b0a8fce4c794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/16.png using Guid(bc3f2ed8d5067d14e83b0a8fce4c794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d9120c4cbc06942c3916fad7e403b7') in 0.023776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/4.png
-  artifactKey: Guid(535684a85da3bd643b8eee08761366bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/4.png using Guid(535684a85da3bd643b8eee08761366bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff01477a65b208be93207f34ea091952') in 0.024880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/3.png
-  artifactKey: Guid(cd002a8191920a8409a4d923487bef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/3.png using Guid(cd002a8191920a8409a4d923487bef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d36dec1b49475a525386f599390d9aa') in 0.028837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/5.png
-  artifactKey: Guid(c5ea344d10dbd804c8513c8708ac620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/5.png using Guid(c5ea344d10dbd804c8513c8708ac620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb51d3df1f91ec031a2f6e4e0be05b68') in 0.023976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/12.png
-  artifactKey: Guid(d096ebaa2bb8d8a439f5b312c05bd83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/12.png using Guid(d096ebaa2bb8d8a439f5b312c05bd83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb9ee8d1a6ecca5086b7930b35fc06f') in 0.025746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/6.png
-  artifactKey: Guid(c03f4e259236338498ab1d490b4bb45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/6.png using Guid(c03f4e259236338498ab1d490b4bb45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9913ab006da464b404106860c2baf02f') in 0.024879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.030436 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/1.png
-  artifactKey: Guid(0e6f2dd9acad12546a30475674fb34b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/1.png using Guid(0e6f2dd9acad12546a30475674fb34b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4548af8c26cb452d4e3e69f121959217') in 0.021945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/4.png
-  artifactKey: Guid(12c749b6ff57891428a632e872dc38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/4.png using Guid(12c749b6ff57891428a632e872dc38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff033aa9d6c6fb3fd77a28801dbb6f0') in 0.020331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/9.png
-  artifactKey: Guid(a2aabd5ae19d1b249a62a0727d9478c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/9.png using Guid(a2aabd5ae19d1b249a62a0727d9478c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a459fc5499025f0909f1fc9fe252b8a3') in 0.022809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/15.png
-  artifactKey: Guid(067f9a551774bb0409704cb679f8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/15.png using Guid(067f9a551774bb0409704cb679f8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64626c508ab9f4ecd6e55d3dae7a134e') in 0.025567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/10.png
-  artifactKey: Guid(771e2a9004c334547a1cffacdeb932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/10.png using Guid(771e2a9004c334547a1cffacdeb932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4218243f5cbaf647a516e8c411228981') in 0.026929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/Green Button (guide).png
-  artifactKey: Guid(bf9603ad2525d6e4fb6aea6e4851fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/Green Button (guide).png using Guid(bf9603ad2525d6e4fb6aea6e4851fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cf4b7cc4715f08c7daafe146ae3643') in 0.023334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/12.png
-  artifactKey: Guid(94524254a99cc7041af81e8a445f77b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/12.png using Guid(94524254a99cc7041af81e8a445f77b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532d3e31dc5cc86d0e33125aebfbc86f') in 0.024296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/14.png
-  artifactKey: Guid(d3d3e63d3ea3ba148bcdef70487b541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/14.png using Guid(d3d3e63d3ea3ba148bcdef70487b541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a9059f48e813413a244d89469fb1ce') in 0.023267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/11.png
-  artifactKey: Guid(d7241447274a842429a0ead8c1569f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/11.png using Guid(d7241447274a842429a0ead8c1569f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00439a6a6e721d7d5db8a92f429b43ca') in 0.025817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.428500 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Big Bars/1.png
-  artifactKey: Guid(e8a8327da0467c04ba1902812905ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Big Bars/1.png using Guid(e8a8327da0467c04ba1902812905ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0044c0cfefe19fd6681b9fa4642fa36') in 0.018992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Big Bars/4.png
-  artifactKey: Guid(8fc766f90ad73984989d01d2f76ee7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Big Bars/4.png using Guid(8fc766f90ad73984989d01d2f76ee7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34a4e85cb832af8d39dc5306412d0a3') in 0.025058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.427218 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/1.png
-  artifactKey: Guid(d64543971059397459ac46e17de52bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/1.png using Guid(d64543971059397459ac46e17de52bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3819762bdd9cfa39db3590406b93b0bc') in 0.024319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/3.png
-  artifactKey: Guid(d2232beb33c50f349a7b5bc95c5dc9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/3.png using Guid(d2232beb33c50f349a7b5bc95c5dc9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0824e0bc357ddc4b6438c369a0728bb') in 0.024800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.256315 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Medium Bars/1.png
-  artifactKey: Guid(882d8f362b47f8e49ae122b5bdae327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Medium Bars/1.png using Guid(882d8f362b47f8e49ae122b5bdae327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5409993dea23efe0e40c7d01341ac77e') in 0.023818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Medium Bars/5.png
-  artifactKey: Guid(53b4ba70cc7075c43aff44a7fcc3aa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Medium Bars/5.png using Guid(53b4ba70cc7075c43aff44a7fcc3aa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887b99a598634c4abb451aed2a86cc7') in 0.023510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.210032 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/1.png
-  artifactKey: Guid(8ea8327463751e847916a603c0dfb9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/1.png using Guid(8ea8327463751e847916a603c0dfb9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabcf344f954aedea0e74b4dbdb73caf') in 0.022255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/5.png
-  artifactKey: Guid(839a21e46ffccde4e91cde4ca9ec09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/5.png using Guid(839a21e46ffccde4e91cde4ca9ec09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e5692c3131b834cbe284bbf391dc1d') in 0.026916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/3.png
-  artifactKey: Guid(223b6fe1018820d42817d820d3a40d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Small Bars/3.png using Guid(223b6fe1018820d42817d820d3a40d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6c840190c0a53343cc4bfe21a2be8') in 0.025693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.361422 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/1.png
-  artifactKey: Guid(636f60e8c5ad0b74b95f0e4e91a5470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/1.png using Guid(636f60e8c5ad0b74b95f0e4e91a5470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fcb3edbbb639ec01b525f1d8839971') in 0.019673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/4.png
-  artifactKey: Guid(0422e28e4592b724ba2f38d23c0f4511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/4.png using Guid(0422e28e4592b724ba2f38d23c0f4511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec7d984102e65eb127793fc38bd917') in 0.027371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/5.png
-  artifactKey: Guid(bdf8937bcec0a4942b28caf1b691033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/5.png using Guid(bdf8937bcec0a4942b28caf1b691033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0114e994aef2fcb4cf49ce2182b05') in 0.026952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/3.png
-  artifactKey: Guid(8cd10b5b3ee661148a03002adef388b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/3.png using Guid(8cd10b5b3ee661148a03002adef388b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b00de24b0227e3c1cd2b805956dae4') in 0.022478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.077516 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/1.png
-  artifactKey: Guid(fe49f8add5667af4e822b7e5ce100ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/1.png using Guid(fe49f8add5667af4e822b7e5ce100ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5396eac9a35fcbf186fd6a320adeb52') in 0.020428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/3.png
-  artifactKey: Guid(9600124ece5a11b449e2fb8ded7a930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/3.png using Guid(9600124ece5a11b449e2fb8ded7a930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703cec937b541df9b593d4b708045df6') in 0.016796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/9.png
-  artifactKey: Guid(0b65cb9ada3907a48bbbd7d29b76bbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/9.png using Guid(0b65cb9ada3907a48bbbd7d29b76bbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b52a8cf805e2f901b1455c156a157') in 0.024553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/10.png
-  artifactKey: Guid(60a4c5259e5bf684bb9fcb106c77c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/10.png using Guid(60a4c5259e5bf684bb9fcb106c77c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92bffb726831cf9864a3511e36675bb') in 0.029001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/7.png
-  artifactKey: Guid(5080a2ddc63a2ea4aa24653aa6ae0d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/7.png using Guid(5080a2ddc63a2ea4aa24653aa6ae0d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fa4ebe460e160bc26d410efc99c5a6') in 0.027876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/11.png
-  artifactKey: Guid(45dd47155176b174f967769e72264e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons Cooldown/11.png using Guid(45dd47155176b174f967769e72264e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8445cc0d9f6e1665bf2815ea5e56a76') in 0.029432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.200658 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/1.png
-  artifactKey: Guid(60e9addb7b53c4d48b83da2d89319765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/1.png using Guid(60e9addb7b53c4d48b83da2d89319765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ee34d224327b0d7839181a2d9cdde6') in 0.020063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/8.png
-  artifactKey: Guid(6e4552c2d4271fa4f8f8c4a1690945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/8.png using Guid(6e4552c2d4271fa4f8f8c4a1690945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835f7e883ef773b0ab77464b443659b6') in 0.028543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/4.png
-  artifactKey: Guid(7387d26d12d87074a9f296d32818645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/4.png using Guid(7387d26d12d87074a9f296d32818645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9c198f043759a42af81c4a14d4b2d2') in 0.027411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/11.png
-  artifactKey: Guid(87ee5c1491d86d242816fd9792b798f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/11.png using Guid(87ee5c1491d86d242816fd9792b798f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5255d6e1aff000afe21b2b3ef66b2a4d') in 0.026693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/12.png
-  artifactKey: Guid(16d6373b2f563634da3bab4a4807fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/12.png using Guid(16d6373b2f563634da3bab4a4807fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5605d278b430385af525796f736adc28') in 0.023840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/3.png
-  artifactKey: Guid(663061bbfa4cdae42a1411a8ffba306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/3.png using Guid(663061bbfa4cdae42a1411a8ffba306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcd86931860650c382f4d0840bdfa11') in 0.025198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/5.png
-  artifactKey: Guid(231a29f4d878c484e8fdbef3b2dc49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/5.png using Guid(231a29f4d878c484e8fdbef3b2dc49f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a29b0f99fa5d85e11a9b392ead7b349') in 0.021415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/3.png
-  artifactKey: Guid(6e2e95caeda0dbe43b233e3b0b9775c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/3.png using Guid(6e2e95caeda0dbe43b233e3b0b9775c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3330403a97cb1430ed252811a7a462a5') in 0.019370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/7.png
-  artifactKey: Guid(9c0d474c883dbac42801cacf1c9fbcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/7.png using Guid(9c0d474c883dbac42801cacf1c9fbcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef828720ea3f5ea5e63da52a969fc05') in 0.026043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/10.png
-  artifactKey: Guid(ef3cf1e7efa08cc4ebbc574c15ed9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/10.png using Guid(ef3cf1e7efa08cc4ebbc574c15ed9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd046a940fea91c80ed2768f63d22d78c') in 0.023435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/9.png
-  artifactKey: Guid(a303fa6ec78abab4691442fd08401bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/9.png using Guid(a303fa6ec78abab4691442fd08401bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb3c01b815b8df65840953db05c743c') in 0.023328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/5.png
-  artifactKey: Guid(ae69a8a1b23f7fc4eab220125b61274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/5.png using Guid(ae69a8a1b23f7fc4eab220125b61274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bed175bdb943a162866ec69a82e089') in 0.025431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/2.png
-  artifactKey: Guid(84062886c9ba33f4f94ab91a41911a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Prefabs/2.png using Guid(84062886c9ba33f4f94ab91a41911a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe3343578b5c739e9fc30c5a671f9e2') in 0.028589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/16.png
-  artifactKey: Guid(d2044d107c544a548a9bd096b570a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/16.png using Guid(d2044d107c544a548a9bd096b570a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4892a5daf9f7d09e2856812d7ebbc770') in 0.025510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 11.558656 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/1.png
-  artifactKey: Guid(43d6a632e6896d5498c0931d0c4299fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/1.png using Guid(43d6a632e6896d5498c0931d0c4299fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e62d6868f95661b44fd626d0052db9') in 0.021632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/4.png
-  artifactKey: Guid(8b527452b2f704146aa3ba7cb290d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/4.png using Guid(8b527452b2f704146aa3ba7cb290d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f28de06cdeef37b19a3764af7c7890') in 0.031847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/5.png
-  artifactKey: Guid(6c2769f75a35cf14c9c5121861f4b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/5.png using Guid(6c2769f75a35cf14c9c5121861f4b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec108b183271067959b0458d836a09c6') in 0.021708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/8.png
-  artifactKey: Guid(d371b9cd6fc9c324694a5d8e2661fa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/8.png using Guid(d371b9cd6fc9c324694a5d8e2661fa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236c23b2000daac4de81c1a4b87e778') in 0.024451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/3.png
-  artifactKey: Guid(ea461741336ed6340bce8283f1b17a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Sliders/3.png using Guid(ea461741336ed6340bce8283f1b17a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a008eb057ca7db47b269c71b4a68d92f') in 0.024960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.383014 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/1.png
-  artifactKey: Guid(9c51e1a0d74f93241abc8e2c9761833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/1.png using Guid(9c51e1a0d74f93241abc8e2c9761833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef672b1f467f074de6f401021556bb5') in 0.019506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/3.png
-  artifactKey: Guid(c8c1b4189b640c94eaa6839b9dac15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/3.png using Guid(c8c1b4189b640c94eaa6839b9dac15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb289b32729c789a289f2a7e891ac97a') in 0.022741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/5.png
-  artifactKey: Guid(6e269dfa71045f748a55ecf323bfbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/5.png using Guid(6e269dfa71045f748a55ecf323bfbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f3c92e2891152df87517bcf3751996') in 0.025324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/Small Banner (guide).png
-  artifactKey: Guid(94f7d256a4513bc47bd3bffc0caba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/Small Banner (guide).png using Guid(94f7d256a4513bc47bd3bffc0caba2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e01dcfdc96d83aac2ef4b5b86380d8') in 0.024372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/4.png
-  artifactKey: Guid(f60f91e974111b64daeccffdab427c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/4.png using Guid(f60f91e974111b64daeccffdab427c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43720f44a76594610d4f16ca9095a55f') in 0.027612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/12.png
-  artifactKey: Guid(5bd7647625c22cf4fbca7ad385bccbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/12.png using Guid(5bd7647625c22cf4fbca7ad385bccbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce053e1360d919fb40e8145bb1e3f62e') in 0.025969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/8.png
-  artifactKey: Guid(b6075d27110f4574ea5131323da6fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/8.png using Guid(b6075d27110f4574ea5131323da6fb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2418ddf15d46e4e86e479352eef125') in 0.026263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.672523 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/1.png
-  artifactKey: Guid(307b5e87ba0e6ef40b7a8effde986d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/1.png using Guid(307b5e87ba0e6ef40b7a8effde986d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3f1a59fc2df620249cea87affe964') in 0.017851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/6.png
-  artifactKey: Guid(30cd129e4066f1a40bc32248d8cc203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/6.png using Guid(30cd129e4066f1a40bc32248d8cc203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f0c1c9ec5e21a1fab67a15863a3546') in 0.018793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/10.png
-  artifactKey: Guid(01a97afd3e5c29f4b94dd7f4dbb98f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/10.png using Guid(01a97afd3e5c29f4b94dd7f4dbb98f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70adeea3ce5028fc36692eb246f3141') in 0.018936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/17.png
-  artifactKey: Guid(97a8fe093ab10dd4591b6e7bd1531212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/17.png using Guid(97a8fe093ab10dd4591b6e7bd1531212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edce00557b9e86a1c23ceaef6e26a01') in 0.015592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/23.png
-  artifactKey: Guid(c0f1fa73e4919a949867e566dfab1390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/23.png using Guid(c0f1fa73e4919a949867e566dfab1390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fab5f61b3c41d193c4edb14797d77ac') in 0.022037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/7.png
-  artifactKey: Guid(d94ca557d9c95c14c923d40def09bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/7.png using Guid(d94ca557d9c95c14c923d40def09bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d70a88bc73586c26395cb1773cab5c') in 0.025978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/3.png
-  artifactKey: Guid(d0d19d5edbebd7e4184fa62573e8cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/3.png using Guid(d0d19d5edbebd7e4184fa62573e8cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5949621747670f0d6cd7daaf26fda6e5') in 0.025561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/9.png
-  artifactKey: Guid(236ecb4cb352c06408555a688ed29963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/9.png using Guid(236ecb4cb352c06408555a688ed29963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c202703cbce722ec590a1eba0799c3b') in 0.023501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/20.png
-  artifactKey: Guid(37ad3f8cf00de2c459afe225a1a88de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/20.png using Guid(37ad3f8cf00de2c459afe225a1a88de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92935ea7f98cd5dcc8250dec9b2841') in 0.028592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/24.png
-  artifactKey: Guid(9abfd6fbb3a15db4d8319980beb2c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/24.png using Guid(9abfd6fbb3a15db4d8319980beb2c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c0b6705fea121287db31e4d96c9c07') in 0.022425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/2.png
-  artifactKey: Guid(0ca4b9db84f42b342bde9896cba72cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/2.png using Guid(0ca4b9db84f42b342bde9896cba72cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c4a38b9f55b06783c02d11ba2f578') in 0.019352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/6.png
-  artifactKey: Guid(4f0247c08f27c7345ab6a44adc48d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/6.png using Guid(4f0247c08f27c7345ab6a44adc48d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f157537c1bf1ceca7aa492ef7a1c3021') in 0.018222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/30.png
-  artifactKey: Guid(e6d99ab3a137bf442933d4e7db9b0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/30.png using Guid(e6d99ab3a137bf442933d4e7db9b0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9190bd3829fb070c1e22e9e1bce08aa8') in 0.017441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/28.png
-  artifactKey: Guid(747ada4771b3c4548a83de2061f4b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/28.png using Guid(747ada4771b3c4548a83de2061f4b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc34a863d6c13b836d770275832fb3bd') in 0.024788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/36.png
-  artifactKey: Guid(6a4aaab417e38ce4084ec2f5d3b1efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/36.png using Guid(6a4aaab417e38ce4084ec2f5d3b1efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35bb64848d2a2455c274f65e652d40b') in 0.021601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/31.png
-  artifactKey: Guid(32ec23987c44e9e498a60d8d180770df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/31.png using Guid(32ec23987c44e9e498a60d8d180770df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acccc626ad4cfa90ede844a93240906') in 0.027738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/5.png
-  artifactKey: Guid(817852f5204b68b44aa721307a9982f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/5.png using Guid(817852f5204b68b44aa721307a9982f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ccbb019a33bd0f17528a79fb5a3ce') in 0.022101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/3.png
-  artifactKey: Guid(bf4e119ed36a47c479330b890af0f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/3.png using Guid(bf4e119ed36a47c479330b890af0f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e29c793995adac56420fb033bf0f855') in 0.024593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/20.png
-  artifactKey: Guid(9da2120996b406c458ae8e191c8eb6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/20.png using Guid(9da2120996b406c458ae8e191c8eb6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b931198876db280c57e3f29ba0ae24c') in 0.021614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/4.png
-  artifactKey: Guid(9a6a2a553f4ee3e4991dae4025bbe8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/4.png using Guid(9a6a2a553f4ee3e4991dae4025bbe8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af15af91547d943982a720bde5f22262') in 0.024196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/4.png
-  artifactKey: Guid(47bd86f7db30e2a469dd78e59433c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/4.png using Guid(47bd86f7db30e2a469dd78e59433c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69835e1193d3cc1e5f6f47009651c477') in 0.024188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/12.png
-  artifactKey: Guid(61694c037a67e894d819b7d45b4c142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/12.png using Guid(61694c037a67e894d819b7d45b4c142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91fd6a6014446c4a963ebb1c1931ee5') in 0.028115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/19.png
-  artifactKey: Guid(62d3e7e5b4a4ce84299bf8160341c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/19.png using Guid(62d3e7e5b4a4ce84299bf8160341c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4152ffafba5446d6ed12756c60e8de99') in 0.019984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/White Bar/1.png
-  artifactKey: Guid(48684f60a69b83d49b0112e81fce9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/White Bar/1.png using Guid(48684f60a69b83d49b0112e81fce9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca1852477d19121a5a8f5360dbbe01a') in 0.025406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/27.png
-  artifactKey: Guid(bb12619133d5abd44b64b6626ced38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/27.png using Guid(bb12619133d5abd44b64b6626ced38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4417d186e79e5c950ba89aa9fadf0d1d') in 0.022939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/33.png
-  artifactKey: Guid(3b3a77fcb036b96449bb15fb41b2c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/33.png using Guid(3b3a77fcb036b96449bb15fb41b2c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319efcf2b66db908d3f51a20c9448df5') in 0.024970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/7.png
-  artifactKey: Guid(31037a1baf5adfc4ea6a52fbb7639096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/7.png using Guid(31037a1baf5adfc4ea6a52fbb7639096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bf3e15c28a9bec64e6cde84f2e7e5c') in 0.024934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/11.png
-  artifactKey: Guid(1a162b628a88f124297491a60286809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/11.png using Guid(1a162b628a88f124297491a60286809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c7c43e68ebafccfb04561bb0768bc9') in 0.024922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/9.png
-  artifactKey: Guid(e8f4ff9d235837740bd1e4fc71e8ab62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/9.png using Guid(e8f4ff9d235837740bd1e4fc71e8ab62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d39344e7c048a6a3b68a069f161adc') in 0.029626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/24.png
-  artifactKey: Guid(ffa4da1654619344190bfee2c7d0620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/24.png using Guid(ffa4da1654619344190bfee2c7d0620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c077de0cf7d5cd8b035c43ceaec97ff') in 0.022004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/32.png
-  artifactKey: Guid(b8734f988c473d4479296d2d9fc44d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/32.png using Guid(b8734f988c473d4479296d2d9fc44d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afcd7661bf28815cb86c36ed7a6bd9f') in 0.023316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/16.png
-  artifactKey: Guid(c63d91d8c51b4254fbb813909ff4cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Icons/16.png using Guid(c63d91d8c51b4254fbb813909ff4cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603b584d14172ad9206ff35c30fad988') in 0.027229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/22.png
-  artifactKey: Guid(df22d6eea2b484e4392a46af512f864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/22.png using Guid(df22d6eea2b484e4392a46af512f864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c738bc1a8528391a5bd5e194ea3099c') in 0.023090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009970 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/1.png
-  artifactKey: Guid(a6f630e1493cd8446946fd2e4121dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/1.png using Guid(a6f630e1493cd8446946fd2e4121dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4e5ec21992543bd55d9977d76c8e5d') in 0.019182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/14.png
-  artifactKey: Guid(e5bd84f21e4883b4dbf444a4d1fc7de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/14.png using Guid(e5bd84f21e4883b4dbf444a4d1fc7de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea85370c725f07e47bfb9bac6aee73b') in 0.021046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/9.png
-  artifactKey: Guid(ec7a4dc83d519ed43a91418686740d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/9.png using Guid(ec7a4dc83d519ed43a91418686740d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcada3df8164f9e5e63c92895fff474') in 0.026458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/6.png
-  artifactKey: Guid(b0b72c62f819175488c76a651f980eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/6.png using Guid(b0b72c62f819175488c76a651f980eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40268355725b02ffd4edecef8daabcde') in 0.028091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/11.png
-  artifactKey: Guid(7b1f532bc6da3214eb5df06add57f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/11.png using Guid(7b1f532bc6da3214eb5df06add57f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19c6356b531cc076b62807173ad8e78') in 0.023142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/10.png
-  artifactKey: Guid(bc71fb5154641f54cb84489c5166e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/10.png using Guid(bc71fb5154641f54cb84489c5166e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fecce4dfb89281ceb68aa00a052904') in 0.024339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/8.png
-  artifactKey: Guid(132d7c25b830ae84eb6113f3b07d91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/8.png using Guid(132d7c25b830ae84eb6113f3b07d91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532658687df5c4b291359797a0187db5') in 0.025656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/7.png
-  artifactKey: Guid(05d7bc97682e5c946ac0994e09cc3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Board/7.png using Guid(05d7bc97682e5c946ac0994e09cc3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f8b089efefab15e867c948c116d2d3') in 0.024464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 260.792557 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/1.png
-  artifactKey: Guid(a17fe774d158bdb4488b4a3c7b486aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/1.png using Guid(a17fe774d158bdb4488b4a3c7b486aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb016cc5e79e676dfb562921ff0a82ef') in 0.024015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/5.png
-  artifactKey: Guid(ff2cc208b8096b4459f8eed37e465286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/5.png using Guid(ff2cc208b8096b4459f8eed37e465286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7fcab14053589afdd27ff6b4bad2b1') in 0.023735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/9.png
-  artifactKey: Guid(527ef7dce010d1942b93fddb33200c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/9.png using Guid(527ef7dce010d1942b93fddb33200c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7fbb1322f34a27176ff53063281e7a') in 0.026240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/Yellow Paper (guide).png
-  artifactKey: Guid(7a07f470176081744a42d3356f71808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/Yellow Paper (guide).png using Guid(7a07f470176081744a42d3356f71808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b719f3bcfa1c9d72585b8ce76f15ca9') in 0.026924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/13.png
-  artifactKey: Guid(b42260b8525bd51489347e301648144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/13.png using Guid(b42260b8525bd51489347e301648144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3300b25c7e5128319142be0ab9b99f3') in 0.026497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/8.png
-  artifactKey: Guid(bf848ac5da07fcd4c8cf40b8cddcdf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/8.png using Guid(bf848ac5da07fcd4c8cf40b8cddcdf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9e7da91ce4f4b2a3735771e3f10199') in 0.024452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/10.png
-  artifactKey: Guid(b967baf41b6c90b4a9e7bbff60ae1650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/10.png using Guid(b967baf41b6c90b4a9e7bbff60ae1650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251ce5f6596e8a0592f083217a2a5220') in 0.023868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/15.png
-  artifactKey: Guid(d91b6835919e9a34eb05aa42c88effca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/15.png using Guid(d91b6835919e9a34eb05aa42c88effca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bb11a03d0b40bb4137c6165a97ebfc') in 0.025235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/14.png
-  artifactKey: Guid(05aa4e773f5e90841be615b72e687a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/14.png using Guid(05aa4e773f5e90841be615b72e687a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d350d896e5300b00902da0d932b93a') in 0.022152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 210.448871 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/38.png
-  artifactKey: Guid(f6977e6a0e6c70d429e019684d10c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/38.png using Guid(f6977e6a0e6c70d429e019684d10c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41cf2d581e951126145c36310185a25') in 0.022937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/41.png
-  artifactKey: Guid(6eba17dd82eac2146975b04fa3f8afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/41.png using Guid(6eba17dd82eac2146975b04fa3f8afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252b560091ddc4a6e85b98a4d78f3188') in 0.023790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.752369 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/42.png
-  artifactKey: Guid(72d3243c254a4aa4daf24b9e94ebf1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/42.png using Guid(72d3243c254a4aa4daf24b9e94ebf1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9febe1a77da3ce87257ef8d0ddda6a64') in 0.022288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/45.png
-  artifactKey: Guid(8c488ab22dfa0f842bc3fd3d64b6272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/45.png using Guid(8c488ab22dfa0f842bc3fd3d64b6272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904a50a9c83b7b93d4a99dd6cfec3003') in 0.021497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/50.png
-  artifactKey: Guid(7591954d5bd3dbc4889f98997146469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/50.png using Guid(7591954d5bd3dbc4889f98997146469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5510f3fd68b2bf385a56c01f427bf797') in 0.023322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/51.png
-  artifactKey: Guid(49db9318f18406549b06d0521352b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/51.png using Guid(49db9318f18406549b06d0521352b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad18694c2f383bc0b3fbcce56e2cb98') in 0.022056 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/52.png
-  artifactKey: Guid(a9ae56a91f4bd2549ace4d544a9b61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/52.png using Guid(a9ae56a91f4bd2549ace4d544a9b61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572ea97bcdb5f6bc513f7eb735009bb5') in 0.022441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 419.869747 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/1.png
-  artifactKey: Guid(776d0f5457644eb40b5b690d3b0366a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/1.png using Guid(776d0f5457644eb40b5b690d3b0366a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a17c2ec56aede19502a5a94cd5a0f91') in 0.025888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/3.png
-  artifactKey: Guid(b11a0258a43c4ad4b8d45d34d2504a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/3.png using Guid(b11a0258a43c4ad4b8d45d34d2504a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a121ee65a2c31aadf35ff453ff963d') in 0.018519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/12.png
-  artifactKey: Guid(0e2fca649b8039d4ebad8e2f851f3041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/12.png using Guid(0e2fca649b8039d4ebad8e2f851f3041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6ba1758e282ec2d2a1f534ab725f3d') in 0.020408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/9.png
-  artifactKey: Guid(cafb885fa1138f04db34bde338cf9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/9.png using Guid(cafb885fa1138f04db34bde338cf9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439553d5c3232798a76c433c193bcaa8') in 0.025936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/4.png
-  artifactKey: Guid(4aa2056bf20b7f0418b140dd28681358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/4.png using Guid(4aa2056bf20b7f0418b140dd28681358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4235388d1a57b0b373ca7c4d1a0da2') in 0.024078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/10.png
-  artifactKey: Guid(6c4eb59a4feb0d1419372bc272d3e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/10.png using Guid(6c4eb59a4feb0d1419372bc272d3e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee98b7f781856c2ba46ce385f8f6fab') in 0.022878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/13.png
-  artifactKey: Guid(9f39c395cce610b4abda56ca3646b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/13.png using Guid(9f39c395cce610b4abda56ca3646b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc66aa013ddbe69db1026bc9b0bb6f3') in 0.024837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/16.png
-  artifactKey: Guid(d56d4158e699f6044b8ab9cadd8dc5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/16.png using Guid(d56d4158e699f6044b8ab9cadd8dc5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabfb0749d4081584b949daa10da75b8') in 0.027703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1765.620200 seconds.
-  path: Assets/Materials/Material_Clouds_Unlit.mat
-  artifactKey: Guid(53246a75e32cee349915137f03bdf6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Clouds_Unlit.mat using Guid(53246a75e32cee349915137f03bdf6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583c168c0b8b0eb371afd437c7f400f5') in 0.280196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/Material_Sky_Unlit.mat
-  artifactKey: Guid(6617444261fa0564aa1c0a2fb3411489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material_Sky_Unlit.mat using Guid(6617444261fa0564aa1c0a2fb3411489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a838d57609123d830ad44da08217db') in 0.021986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.697 seconds
-Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -1539,46 +249,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.594 seconds
-Domain Reload Profiling: 2290ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  1.519 seconds
+Domain Reload Profiling: 2098ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (450ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (370ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1595ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1520ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (696ms)
+		SetupLoadedEditorAssemblies (738ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (39ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (425ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 5.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5547 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (227.5 KB). Loaded Objects now: 6339.
-Memory consumption went from 222.5 MB to 222.2 MB.
-Total: 7.886400 ms (FindLiveObjects: 0.902200 ms CreateObjectMapping: 1.321600 ms MarkObjects: 5.342900 ms  DeleteObjects: 0.318600 ms)
+Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (227.9 KB). Loaded Objects now: 6267.
+Memory consumption went from 222.1 MB to 221.9 MB.
+Total: 4.227100 ms (FindLiveObjects: 0.516700 ms CreateObjectMapping: 0.295900 ms MarkObjects: 3.046900 ms  DeleteObjects: 0.365500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1598,8 +308,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.612 seconds
-Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -1608,253 +318,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.459 seconds
-Domain Reload Profiling: 2068ms
-	BeginReloadAssembly (186ms)
+- Finished resetting the current domain, in  1.264 seconds
+Domain Reload Profiling: 1872ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
 		LoadAssemblies (372ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1460ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (709ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 8.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5547 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (227.8 KB). Loaded Objects now: 6344.
-Memory consumption went from 224.3 MB to 224.1 MB.
-Total: 9.461500 ms (FindLiveObjects: 0.616500 ms CreateObjectMapping: 0.602300 ms MarkObjects: 7.808400 ms  DeleteObjects: 0.432700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.556 seconds
-Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.171 seconds
-Domain Reload Profiling: 1727ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (327ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (68ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (15ms)
 				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1172ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1264ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
+		SetupLoadedEditorAssemblies (497ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5547 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (228.9 KB). Loaded Objects now: 6349.
-Memory consumption went from 226.3 MB to 226.0 MB.
-Total: 3.746500 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.236600 ms MarkObjects: 2.719800 ms  DeleteObjects: 0.345400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.735 seconds
-Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.504 seconds
-Domain Reload Profiling: 2236ms
-	BeginReloadAssembly (206ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (479ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1505ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5547 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (227.7 KB). Loaded Objects now: 6354.
-Memory consumption went from 228.2 MB to 228.0 MB.
-Total: 6.054300 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.553600 ms MarkObjects: 4.422000 ms  DeleteObjects: 0.477000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.511 seconds
-Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.274 seconds
-Domain Reload Profiling: 1784ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (326ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1275ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 7.89 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5547 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (227.9 KB). Loaded Objects now: 6359.
-Memory consumption went from 230.1 MB to 229.8 MB.
-Total: 5.723800 ms (FindLiveObjects: 0.788400 ms CreateObjectMapping: 0.883200 ms MarkObjects: 3.726100 ms  DeleteObjects: 0.324400 ms)
+Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (228.0 KB). Loaded Objects now: 6272.
+Memory consumption went from 223.9 MB to 223.7 MB.
+Total: 4.733900 ms (FindLiveObjects: 0.655700 ms CreateObjectMapping: 0.265100 ms MarkObjects: 3.527500 ms  DeleteObjects: 0.284100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

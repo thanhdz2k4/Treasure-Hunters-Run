@@ -28,20 +28,7 @@ public class SpawnMap : MonoBehaviour
 
     [SerializeField]
     Transform Grid;
-   
-
-    private void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-        //MakeMap();
-
-    }
+  
 
     
     public Transform MakeMap()
