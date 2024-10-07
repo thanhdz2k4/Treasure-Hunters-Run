@@ -17,8 +17,6 @@ public class AudioBackground : MonoBehaviour
     [SerializeField]
     Slider musicSlider;
 
-    [SerializeField]
-    TickComboBox comboBoxMusic;
     
 
     // Start is called before the first frame update
@@ -33,48 +31,23 @@ public class AudioBackground : MonoBehaviour
         {
             audioSource.clip = StartGameAudio;
             audioSource.Play();
-            Debug.Log("Playing StartGameAudio");
         }
-        else
-        {
-            Debug.LogError("StartGameAudio not assigned!");
-        }
+  
     }
 
     public void ChangeDuringGameAudio()
     {
        
-        if (DuringGameAudio != null)
+        if (DuringGameAudio != null  && SaveSystem.Instance.isMuteMusicAudio)
         {
             audioSource.clip = DuringGameAudio;
             audioSource.Play();
-            Debug.Log("Changed to DuringGameAudio and playing.");
         }
         else
-        {
-            Debug.LogError("DuringGameAudio not assigned!");
-        }
-
-
-        UpdateVolume();
-
-
-    }
-
-
-    public void UpdateVolume()
-    {
-        this.audioSource.volume = musicSlider.value;
-        if (comboBoxMusic.isTick)
         {
             audioSource.Pause();
         }
-        else
-        {
-            //audioSource.Play();
-
-        }
     }
 
- 
+
 }

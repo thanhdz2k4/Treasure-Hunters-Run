@@ -5,19 +5,22 @@ using UnityEngine.UI;
 
 public class SFX : MonoBehaviour
 {
-
+    // component
     [SerializeField] AudioSource audioSource;
+
+    // soucre
     [SerializeField] AudioClip ThrowKnifeClip;
     [SerializeField] AudioClip MouseClick;
+
+    // UI
     [SerializeField] Slider SFXSlider;
-    [SerializeField] TickComboBox comboBoxSFX;
 
-
+  
 
 
     public void PlayThrowKnifeClip()
     {
-        if(!comboBoxSFX.isTick)
+        if(!SaveSystem.Instance.isMuteSFXAudio)
         {
             audioSource.PlayOneShot(ThrowKnifeClip);
         }
@@ -27,7 +30,7 @@ public class SFX : MonoBehaviour
     public void PlayMouseClickClip()
     {
 
-        if (!comboBoxSFX.isTick)
+        if (SaveSystem.Instance.isMuteSFXAudio)
         {
             audioSource.PlayOneShot(MouseClick);
         }
@@ -36,7 +39,7 @@ public class SFX : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !comboBoxSFX.isTick)
+        if(Input.GetMouseButtonDown(0) && SaveSystem.Instance.isMuteSFXAudio)
         {
             audioSource.PlayOneShot(MouseClick);
         }
@@ -46,5 +49,7 @@ public class SFX : MonoBehaviour
     public void UpdateVolumeSFX()
     {
         this.audioSource.volume = SFXSlider.value;
+        SaveSystem.Instance.volumeSFX = SFXSlider.value;
+
     }
 }

@@ -6649,7 +6649,7 @@ GameObject:
   - component: {fileID: 218366339}
   - component: {fileID: 218366338}
   m_Layer: 5
-  m_Name: MusicTxt
+  m_Name: Music_Txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23583,7 +23583,6 @@ MonoBehaviour:
   ThrowKnifeClip: {fileID: 8300000, guid: 8e164c8b31a8af64da3d230ed68a59c1, type: 3}
   MouseClick: {fileID: 8300000, guid: 85770cf22dbafe04ab48ed7cd94eb1e3, type: 3}
   SFXSlider: {fileID: 589570540}
-  comboBoxSFX: {fileID: 1821121795}
 --- !u!1 &657934067
 GameObject:
   m_ObjectHideFlags: 0
@@ -28137,7 +28136,7 @@ GameObject:
   - component: {fileID: 801422402}
   - component: {fileID: 801422401}
   m_Layer: 5
-  m_Name: MusicButton
+  m_Name: Music_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28214,6 +28213,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TickIcon: {fileID: 839977385}
+  invokeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1039370872}
+        m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
+        m_MethodName: SetMuteBGAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  isTick: 0
 --- !u!114 &801422402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30876,7 +30891,7 @@ GameObject:
   - component: {fileID: 900619185}
   - component: {fileID: 900619184}
   m_Layer: 5
-  m_Name: SFXTxt
+  m_Name: SFX_Txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34583,6 +34598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f03912fdf30c01749b2f461edc9ec697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeSFX: 0
+  volumeMusic: 0
+  isMuteMusic: 0
+  isMuteSFX: 0
 --- !u!4 &1039370873
 Transform:
   m_ObjectHideFlags: 0
@@ -42422,7 +42441,7 @@ GameObject:
   - component: {fileID: 1325769648}
   - component: {fileID: 1325769650}
   m_Layer: 5
-  m_Name: SettingButton
+  m_Name: Setting_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42546,6 +42565,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1890757177}
+        m_TargetAssemblyTypeName: UIHandler, Assembly-CSharp
+        m_MethodName: UpdateSlider
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1890757177}
+        m_TargetAssemblyTypeName: UIHandler, Assembly-CSharp
+        m_MethodName: UpdateTickBox
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -43349,7 +43392,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365637701}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 469eff8975005a24a9712581e5fe5205, type: 3}
   m_Name: 
@@ -43358,7 +43401,6 @@ MonoBehaviour:
   StartGameAudio: {fileID: 8300000, guid: b1bfb4de0567b4f449b5d82cffdf6814, type: 3}
   DuringGameAudio: {fileID: 8300000, guid: e2e00c568de042e48875cd8d2413a062, type: 3}
   musicSlider: {fileID: 972243508}
-  comboBoxMusic: {fileID: 801422401}
 --- !u!1 &1366955858
 GameObject:
   m_ObjectHideFlags: 0
@@ -55074,7 +55116,7 @@ GameObject:
   - component: {fileID: 1644051880}
   - component: {fileID: 1644051879}
   m_Layer: 5
-  m_Name: MusicBackground
+  m_Name: Music_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58826,7 +58868,7 @@ GameObject:
   - component: {fileID: 1821121796}
   - component: {fileID: 1821121795}
   m_Layer: 5
-  m_Name: SFXButton
+  m_Name: SFX_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58903,6 +58945,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TickIcon: {fileID: 1338848744}
+  invokeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1039370872}
+        m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
+        m_MethodName: SetMuteSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  isTick: 0
 --- !u!114 &1821121796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61318,13 +61376,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65c6432408745d4c8a2c14aea89aa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceText: {fileID: 55448835}
   Fall_Screen: {fileID: 530168954}
   GamePlay_Screen: {fileID: 417775489}
   adapterNumberInFallGameScreen: {fileID: 1850649332}
   adapterNumberInRecoreGame: {fileID: 212868167}
   coinsText: {fileID: 490802349}
   killerText: {fileID: 1407042280}
+  distanceText: {fileID: 55448835}
+  SFXSlider: {fileID: 589570540}
+  MusicSlider: {fileID: 972243508}
+  musicButton: {fileID: 801422401}
+  sfxButton: {fileID: 1821121795}
 --- !u!1 &1894568667
 GameObject:
   m_ObjectHideFlags: 0

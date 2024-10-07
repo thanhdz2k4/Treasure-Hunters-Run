@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class TickComboBox : MonoBehaviour
 {
     [SerializeField]
-    Image TickIcon; 
+    Image TickIcon;
 
-    public bool isTick { get; private set; }
+    [SerializeField]
+    UnityEvent invokeEvent;
+
+    public bool isTick;
 
     private void Start()
     {
@@ -18,6 +22,12 @@ public class TickComboBox : MonoBehaviour
     public void ToggleTickIcon()
     {
         isTick = !isTick;
-        TickIcon.gameObject.SetActive(!isTick);
+        TickIcon.gameObject.SetActive(isTick);
+        invokeEvent.Invoke();
+    }
+
+    public void UpdateUI()
+    {
+        TickIcon.gameObject.SetActive(isTick);
     }
 }

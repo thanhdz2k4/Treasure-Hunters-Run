@@ -9,8 +9,26 @@ public class SaveSystem : MonoBehaviour
 
     public int currentSkill { get; private set; }
 
-
     public int coinsPrefs { get; private set; }
+
+    public bool isMuteMusicAudio { get; private set; }
+    
+    public bool isMuteSFXAudio { get; private set; }
+
+    public float volumeSFX;
+    public float volumeMusic;
+
+    [SerializeField]
+    bool isMuteMusic;
+
+    [SerializeField]
+    bool isMuteSFX;
+
+    private void Update()
+    {
+        isMuteMusic = isMuteMusicAudio;
+        isMuteSFX = isMuteSFXAudio;
+    }
 
 
     private void Awake()
@@ -44,6 +62,10 @@ public class SaveSystem : MonoBehaviour
             PlayerPrefs.GetFloat("OldRecord");
         }
 
+        isMuteMusicAudio = false;
+        isMuteSFXAudio = false;
+
+
         coinsPrefs = PlayerPrefs.GetInt("yourCoin");
     }
 
@@ -63,5 +85,16 @@ public class SaveSystem : MonoBehaviour
     {
         currentSkill = 0;
         currentCoins = 0;
+    }
+
+    public void SetMuteSFX()
+    {
+        isMuteSFXAudio = !isMuteSFXAudio;
+        Debug.Log("isMuteSFXAudio: " + isMuteSFXAudio);
+    }
+
+    public void SetMuteBGAudio()
+    {
+        isMuteMusicAudio = !isMuteMusicAudio;
     }
 }
