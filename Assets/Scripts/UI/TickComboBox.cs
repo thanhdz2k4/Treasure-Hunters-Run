@@ -10,24 +10,61 @@ public class TickComboBox : MonoBehaviour
     Image TickIcon;
 
     [SerializeField]
-    UnityEvent invokeEvent;
+    string mute;
 
-    public bool isTick;
+    [SerializeField]
+    bool isTick;
+
+    [SerializeField]
+    UnityEvent unityEvent;
+
 
     private void Start()
     {
-        TickIcon.gameObject.SetActive(true);
+       
+
+    }
+
+    
+
+    private void UpdateComboBox()
+    {
+        if (PlayerPrefs.GetInt(mute) == 1)
+        {
+            TickIcon.gameObject.SetActive(true);
+        }
+        else
+        {
+            TickIcon.gameObject.SetActive(false);
+        }
     }
 
     public void ToggleTickIcon()
     {
         isTick = !isTick;
-        TickIcon.gameObject.SetActive(isTick);
-        invokeEvent.Invoke();
+        if (isTick)
+        {
+            PlayerPrefs.SetInt(mute, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(mute, 0);
+        }
+        UpdateComboBox();
+        unityEvent.Invoke();
+        Debug.Log(PlayerPrefs.GetInt(mute) + "    " + mute);
     }
 
     public void UpdateUI()
     {
-        TickIcon.gameObject.SetActive(isTick);
+        if (PlayerPrefs.GetFloat("yourDistance") > 1000)
+        {
+            isTick = false;
+            TickIcon.gameObject.SetActive(false);
+        }
+        else
+        {
+            UpdateComboBox();
+        }
     }
 }

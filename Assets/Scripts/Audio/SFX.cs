@@ -15,12 +15,26 @@ public class SFX : MonoBehaviour
     // UI
     [SerializeField] Slider SFXSlider;
 
-  
+    [SerializeField]
+    bool isMute;
+
+
+    private void Start()
+    {
+        if(PlayerPrefs.GetInt("MuteSFX") == 1)
+        {
+            isMute = true;
+        } else
+        {
+            isMute = false;
+        }
+    }
+
 
 
     public void PlayThrowKnifeClip()
     {
-        if(!SaveSystem.Instance.isMuteSFXAudio)
+        if(!isMute)
         {
             audioSource.PlayOneShot(ThrowKnifeClip);
         }
@@ -30,7 +44,7 @@ public class SFX : MonoBehaviour
     public void PlayMouseClickClip()
     {
 
-        if (SaveSystem.Instance.isMuteSFXAudio)
+        if (!isMute)
         {
             audioSource.PlayOneShot(MouseClick);
         }
@@ -39,7 +53,7 @@ public class SFX : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0) && SaveSystem.Instance.isMuteSFXAudio)
+        if(Input.GetMouseButtonDown(0) && !isMute)
         {
             audioSource.PlayOneShot(MouseClick);
         }
@@ -49,7 +63,7 @@ public class SFX : MonoBehaviour
     public void UpdateVolumeSFX()
     {
         this.audioSource.volume = SFXSlider.value;
-        SaveSystem.Instance.volumeSFX = SFXSlider.value;
+       
 
     }
 }

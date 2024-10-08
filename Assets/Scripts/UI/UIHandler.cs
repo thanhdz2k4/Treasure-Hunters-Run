@@ -27,6 +27,10 @@ public class UIHandler : MonoBehaviour
     [SerializeField] TickComboBox musicButton;
     [SerializeField] TickComboBox sfxButton;
 
+    private bool isTickButtonReset = false;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,23 +47,42 @@ public class UIHandler : MonoBehaviour
 
     public void FallGameScreen()
     {
-        Fall_Screen.SetActive(true);
-        GamePlay_Screen.SetActive(false);
-        adapterNumberInFallGameScreen.listOfImage(Mathf.FloorToInt(VelocityHandler.Instance.currentDistance));
+        if(!isTickButtonReset)
+        {
+            Fall_Screen.SetActive(true);
+            GamePlay_Screen.SetActive(false);
+            adapterNumberInFallGameScreen.listOfImage(Mathf.FloorToInt(VelocityHandler.Instance.currentDistance));
+            Debug.Log(" Fall_Screen.SetActive(true)");
+            isTickButtonReset = true;
 
+        }
+
+
+    }
+
+    public void UnacticeFallGameScreen()
+    {
+        Fall_Screen.SetActive(false);
+        Debug.Log(" Fall_Screen.SetActive(false)");
+
+        StartCoroutine(Delay(1f));
+    }
+
+    IEnumerator Delay(float timer)
+    {
+        yield return new WaitForSeconds(timer);
+        isTickButtonReset = false;
     }
 
     public void UpdateSlider()
     {
-        SFXSlider.value = SaveSystem.Instance.volumeSFX;
-        MusicSlider.value = SaveSystem.Instance.volumeMusic;
+       
 
     }
 
     public void UpdateTickBox()
     {
-        musicButton.isTick = SaveSystem.Instance.isMuteMusicAudio;
-        sfxButton.isTick = SaveSystem.Instance.isMuteSFXAudio;
+       
 
         musicButton.UpdateUI();
         sfxButton.UpdateUI();

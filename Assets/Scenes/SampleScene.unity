@@ -23583,6 +23583,7 @@ MonoBehaviour:
   ThrowKnifeClip: {fileID: 8300000, guid: 8e164c8b31a8af64da3d230ed68a59c1, type: 3}
   MouseClick: {fileID: 8300000, guid: 85770cf22dbafe04ab48ed7cd94eb1e3, type: 3}
   SFXSlider: {fileID: 589570540}
+  isMute: 0
 --- !u!1 &657934067
 GameObject:
   m_ObjectHideFlags: 0
@@ -28213,12 +28214,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TickIcon: {fileID: 839977385}
-  invokeEvent:
+  mute: MuteMusic
+  isTick: 0
+  unityEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039370872}
-        m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
-        m_MethodName: SetMuteBGAudio
+      - m_Target: {fileID: 1365637704}
+        m_TargetAssemblyTypeName: AudioBackground, Assembly-CSharp
+        m_MethodName: ChangeDuringGameAudio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28228,7 +28231,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  isTick: 0
 --- !u!114 &801422402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33570,6 +33572,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1890757177}
+        m_TargetAssemblyTypeName: UIHandler, Assembly-CSharp
+        m_MethodName: UnacticeFallGameScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1000821464
 GameObject:
   m_ObjectHideFlags: 0
@@ -34598,10 +34612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f03912fdf30c01749b2f461edc9ec697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeSFX: 0
-  volumeMusic: 0
-  isMuteMusic: 0
-  isMuteSFX: 0
 --- !u!4 &1039370873
 Transform:
   m_ObjectHideFlags: 0
@@ -42573,30 +42583,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1890757177}
-        m_TargetAssemblyTypeName: UIHandler, Assembly-CSharp
-        m_MethodName: UpdateSlider
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1890757177}
-        m_TargetAssemblyTypeName: UIHandler, Assembly-CSharp
-        m_MethodName: UpdateTickBox
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!1 &1334850409
 GameObject:
   m_ObjectHideFlags: 0
@@ -43401,6 +43387,7 @@ MonoBehaviour:
   StartGameAudio: {fileID: 8300000, guid: b1bfb4de0567b4f449b5d82cffdf6814, type: 3}
   DuringGameAudio: {fileID: 8300000, guid: e2e00c568de042e48875cd8d2413a062, type: 3}
   musicSlider: {fileID: 972243508}
+  isMute: 1
 --- !u!1 &1366955858
 GameObject:
   m_ObjectHideFlags: 0
@@ -58945,22 +58932,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TickIcon: {fileID: 1338848744}
-  invokeEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1039370872}
-        m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
-        m_MethodName: SetMuteSFX
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  mute: MuteSFX
   isTick: 0
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1821121796
 MonoBehaviour:
   m_ObjectHideFlags: 0

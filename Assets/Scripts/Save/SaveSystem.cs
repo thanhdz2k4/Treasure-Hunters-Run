@@ -11,36 +11,17 @@ public class SaveSystem : MonoBehaviour
 
     public int coinsPrefs { get; private set; }
 
-    public bool isMuteMusicAudio { get; private set; }
-    
-    public bool isMuteSFXAudio { get; private set; }
-
-    public float volumeSFX;
-    public float volumeMusic;
-
-    [SerializeField]
-    bool isMuteMusic;
-
-    [SerializeField]
-    bool isMuteSFX;
-
-    private void Update()
-    {
-        isMuteMusic = isMuteMusicAudio;
-        isMuteSFX = isMuteSFXAudio;
-    }
-
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);  // This makes sure the SaveSystem persists across scenes.
+            DontDestroyOnLoad(gameObject);  
         }
         else
         {
-            Destroy(gameObject);  // Ensure only one instance exists.
+            Destroy(gameObject);  
         }
     }
     // Start is called before the first frame update
@@ -61,9 +42,6 @@ public class SaveSystem : MonoBehaviour
         {
             PlayerPrefs.GetFloat("OldRecord");
         }
-
-        isMuteMusicAudio = false;
-        isMuteSFXAudio = false;
 
 
         coinsPrefs = PlayerPrefs.GetInt("yourCoin");
@@ -87,14 +65,5 @@ public class SaveSystem : MonoBehaviour
         currentCoins = 0;
     }
 
-    public void SetMuteSFX()
-    {
-        isMuteSFXAudio = !isMuteSFXAudio;
-        Debug.Log("isMuteSFXAudio: " + isMuteSFXAudio);
-    }
-
-    public void SetMuteBGAudio()
-    {
-        isMuteMusicAudio = !isMuteMusicAudio;
-    }
+   
 }
