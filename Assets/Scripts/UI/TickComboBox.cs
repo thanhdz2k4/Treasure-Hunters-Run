@@ -31,11 +31,11 @@ public class TickComboBox : MonoBehaviour
     {
         if (PlayerPrefs.GetInt(mute) == 1)
         {
-            TickIcon.gameObject.SetActive(true);
+            TickIcon.gameObject.SetActive(false);
         }
         else
         {
-            TickIcon.gameObject.SetActive(false);
+            TickIcon.gameObject.SetActive(true);
         }
     }
 
@@ -44,11 +44,11 @@ public class TickComboBox : MonoBehaviour
         isTick = !isTick;
         if (isTick)
         {
-            PlayerPrefs.SetInt(mute, 1);
+            PlayerPrefs.SetInt(mute, 0);
         }
         else
         {
-            PlayerPrefs.SetInt(mute, 0);
+            PlayerPrefs.SetInt(mute, 1);
         }
         UpdateComboBox();
         unityEvent.Invoke();

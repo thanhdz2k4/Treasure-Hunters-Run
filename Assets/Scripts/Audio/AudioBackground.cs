@@ -34,17 +34,8 @@ public class AudioBackground : MonoBehaviour
             audioSource.clip = StartGameAudio;
         }
 
-        // Check if there's saved player data (like the distance they achieved in a previous game)
-        if (PlayerPrefs.GetFloat("yourDistance") > 1000)
-        {
-            
-            GetData();  // Load stored preferences
-        }
-        else
-        {
-            PlayerPrefs.SetInt("MuteMusic", 1);
-            isMute = false;  // Default to audio not being muted
-        }
+        // Load stored player preferences
+        LoadData();
 
         // Play or pause the audio based on the mute status
         if (!isMute)
@@ -66,22 +57,15 @@ public class AudioBackground : MonoBehaviour
     }
 
     // Load mute setting from PlayerPrefs
-    void GetData()
+    void LoadData()
     {
-        if (PlayerPrefs.GetInt("MuteMusic") == 1)
-        {
-            isMute = true;
-        }
-        else
-        {
-            isMute = false;
-        }
+        isMute = PlayerPrefs.GetInt("MuteMusic", 0) == 1;  // Default to not muted (0)
     }
 
     // Change the audio to the "DuringGameAudio" when gameplay starts
     public void ChangeDuringGameAudio()
     {
-        GetData();
+        LoadData();
 
         // If the audio clip exists and audio is not muted, play it
         if (DuringGameAudio != null && !isMute)
@@ -100,6 +84,7 @@ public class AudioBackground : MonoBehaviour
     {
         audioSource.volume = volume;
         PlayerPrefs.SetFloat("MusicVolume", volume);  // Save volume preference
+        PlayerPrefs.Save();  // Save the preferences to disk
     }
 
     // Mute/unmute the music
@@ -107,6 +92,7 @@ public class AudioBackground : MonoBehaviour
     {
         isMute = mute;
         PlayerPrefs.SetInt("MuteMusic", isMute ? 1 : 0);  // Save mute preference
+        PlayerPrefs.Save();  // Save the preferences to disk
 
         if (isMute)
         {
