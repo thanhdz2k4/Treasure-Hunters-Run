@@ -20,8 +20,8 @@ public class UIHandler : MonoBehaviour
     [SerializeField] TMP_Text distanceText;
 
     // Slider
-    [SerializeField] Slider SFXSlider;
-    [SerializeField] Slider MusicSlider;
+    [SerializeField] SliderUI SFXSlider;
+    [SerializeField] SliderUI MusicSlider;
 
     // Combobox
     [SerializeField] TickComboBox musicButton;

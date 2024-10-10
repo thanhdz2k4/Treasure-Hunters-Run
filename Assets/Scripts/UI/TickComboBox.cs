@@ -18,15 +18,6 @@ public class TickComboBox : MonoBehaviour
     [SerializeField]
     UnityEvent unityEvent;
 
-
-    private void Start()
-    {
-       
-
-    }
-
-    
-
     private void UpdateComboBox()
     {
         if (PlayerPrefs.GetInt(mute) == 1)

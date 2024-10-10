@@ -407,6 +407,7 @@
 "Assets/Scripts/Timeline/ReplayTimeline.cs"
 "Assets/Scripts/Timeline/Timeline.cs"
 "Assets/Scripts/UI/AdapterNumber.cs"
+"Assets/Scripts/UI/SliderUI.cs"
 "Assets/Scripts/UI/TickComboBox.cs"
 "Assets/Scripts/UI/UIHandler.cs"
 "Assets/Scripts/UI_Animation/UIAnimationController.cs"

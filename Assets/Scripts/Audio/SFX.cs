@@ -21,20 +21,26 @@ public class SFX : MonoBehaviour
 
     private void Start()
     {
-        if(PlayerPrefs.GetInt("MuteSFX") == 1)
-        {
-            isMute = true;
-        } else
-        {
-            isMute = false;
-        }
+        audioSource.volume = PlayerPrefs.GetFloat("SFXVolume");
+
+        LoadData();
     }
+
+
+    // Load mute setting from PlayerPrefs
+    public void LoadData()
+    {
+        isMute = PlayerPrefs.GetInt("MuteSFX", 0) == 1;  // Default to not muted (0)
+    }
+
+
 
 
 
     public void PlayThrowKnifeClip()
     {
-        if(!isMute)
+       
+        if (!isMute)
         {
             audioSource.PlayOneShot(ThrowKnifeClip);
         }
@@ -43,7 +49,7 @@ public class SFX : MonoBehaviour
 
     public void PlayMouseClickClip()
     {
-
+        
         if (!isMute)
         {
             audioSource.PlayOneShot(MouseClick);
@@ -53,17 +59,32 @@ public class SFX : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !isMute)
+        //LoadData();
+        if (Input.GetMouseButtonDown(0))
         {
-            audioSource.PlayOneShot(MouseClick);
+          
+            if(!isMute)
+            {
+                audioSource.PlayOneShot(MouseClick);
+            }
+            
         }
         
     }
 
+    // Change volume based on the slider
+    public void ChangeVolume(Slider volume)
+    {
+        audioSource.volume = volume.value;
+        PlayerPrefs.SetFloat("SFXVolume", volume.value);  // Save volume preference
+        PlayerPrefs.Save();  // Save the preferences to disk
+    }
+
     public void UpdateVolumeSFX()
     {
-        this.audioSource.volume = SFXSlider.value;
-       
 
+        this.audioSource.volume = SFXSlider.value;
     }
+
+    
 }
