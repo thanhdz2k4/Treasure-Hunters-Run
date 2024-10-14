@@ -17,6 +17,9 @@ public class UIAnimationController : MonoBehaviour
     [Header("GUIDANCE SCREEN ANIMATOR")]
     [SerializeField] Animator[] GuidanceAnimator;
 
+    [Header("SHOP SCREEN ANIMATOR")]
+    [SerializeField] Animator[] ShopAnimator;
+
     private void Start()
     {
         PlayMainMenuAnimator();
@@ -64,6 +67,15 @@ public class UIAnimationController : MonoBehaviour
             PlayAnimation(animator);
         }
     }
+
+    public void PlayShopAnimator()
+    {
+        foreach (Animator animator in ShopAnimator)
+        {
+            PlayAnimation(animator);
+        }
+    }
+
 
     private void PlayAnimation(Animator animator)
     {

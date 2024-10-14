@@ -252,8 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198f5993fd3ce8343b18ca4b8754b9ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 4462310620809799720}
-  collectCoinAudio: {fileID: 8300000, guid: b364dace15f22ec4c8d1aa4cdfbeb85e, type: 3}
-  NameCoin: Coin
+  audioSource: {fileID: 4462310620809799720}
+  collectAudio: {fileID: 8300000, guid: b364dace15f22ec4c8d1aa4cdfbeb85e, type: 3}
+  Name: Coin
   value: 1
   xDespawn: -20

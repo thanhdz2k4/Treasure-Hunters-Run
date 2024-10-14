@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 43b606ae8fcf81e4aafd52da174bf3ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 147
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d51e237199f25b4285edaa419475074
+      internalID: 1212440033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 144
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e82fcf3d7f61049babe70ca1041477
+      internalID: 176726251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 147
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385fcf6a28766df45aea2d7103253f4b
+      internalID: -1681814716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 132
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6631889b3e4d56f4ca7dcc68ab7ace73
+      internalID: 997131195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 124
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c9a0b2cb645414b9ca2eced7be7760
+      internalID: -672196752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 100
+        width: 33
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c46885185445b46aa03cde62adb1c1
+      internalID: -974343491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 84
+        width: 33
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e102f4f2777294eb79500e3abf1b19
+      internalID: 193513573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 134
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b097acac78dbf44983695cfa2164179
+      internalID: 21608222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_17
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 139
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97741b1b21258004ca83b0b2249c2f53
+      internalID: 916481017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 146
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b733742c582c3488454e6f4957e618
+      internalID: -1023444699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc57aafedbd844cb3902d996990e15
+      internalID: -2095741169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_20
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 170
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026c944dc2c3df1459355b519c8a9712
+      internalID: -1737055300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_21
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 160
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2361fd78379714f8ca4a4e43120bc0
+      internalID: -32283615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 140
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ce20f4e9f79bd40939542182ce203e
+      internalID: 1571397593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 60
+        height: 56
+      alignment: 9
+      pivot: {x: 0.47109747, y: 0.3301069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc733562db5f2394ab132b996884e38d
+      internalID: -1467926267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 21
+        width: 60
+        height: 56
+      alignment: 9
+      pivot: {x: 0.407548, y: 0.3294809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e4272091b83ea44a92b9d4f6ac5d96
+      internalID: 847398203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 21
+        width: 77
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5455784, y: 0.3309378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6ea2ba007f9aa48ac67d9a800cb025
+      internalID: 1318960655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 21
+        width: 90
+        height: 56
+      alignment: 9
+      pivot: {x: 0.59460586, y: 0.3224901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054852d4a1f91a149bc404c4d55dcdec
+      internalID: -1084992852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 86
+        height: 59
+      alignment: 9
+      pivot: {x: 0.58519125, y: 0.3074195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66733a3b70581014bb3453f383f09ef7
+      internalID: 402638800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 18
+        width: 86
+        height: 59
+      alignment: 9
+      pivot: {x: 0.52236867, y: 0.3921632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0156d5d69b1fd314a86c1f4a71a60169
+      internalID: 2054494817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - One Piece - Monkey D Luffy3_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 18
+        width: 59
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5550149, y: 0.3335804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892bd5713ecbb8144bf2a71bbc0e0e0c
+      internalID: 1092685073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game Boy Advance - One Piece - Monkey D Luffy3_0: -1467926267
+      Game Boy Advance - One Piece - Monkey D Luffy3_1: 847398203
+      Game Boy Advance - One Piece - Monkey D Luffy3_10: 176726251
+      Game Boy Advance - One Piece - Monkey D Luffy3_11: -1681814716
+      Game Boy Advance - One Piece - Monkey D Luffy3_12: 997131195
+      Game Boy Advance - One Piece - Monkey D Luffy3_13: -672196752
+      Game Boy Advance - One Piece - Monkey D Luffy3_14: -974343491
+      Game Boy Advance - One Piece - Monkey D Luffy3_15: 193513573
+      Game Boy Advance - One Piece - Monkey D Luffy3_16: 21608222
+      Game Boy Advance - One Piece - Monkey D Luffy3_17: 916481017
+      Game Boy Advance - One Piece - Monkey D Luffy3_18: -1023444699
+      Game Boy Advance - One Piece - Monkey D Luffy3_19: -2095741169
+      Game Boy Advance - One Piece - Monkey D Luffy3_2: 1318960655
+      Game Boy Advance - One Piece - Monkey D Luffy3_20: -1737055300
+      Game Boy Advance - One Piece - Monkey D Luffy3_21: -32283615
+      Game Boy Advance - One Piece - Monkey D Luffy3_22: 1571397593
+      Game Boy Advance - One Piece - Monkey D Luffy3_23: 1349474887
+      Game Boy Advance - One Piece - Monkey D Luffy3_24: 636478269
+      Game Boy Advance - One Piece - Monkey D Luffy3_25: 1175949361
+      Game Boy Advance - One Piece - Monkey D Luffy3_26: -104887711
+      Game Boy Advance - One Piece - Monkey D Luffy3_27: -1614433163
+      Game Boy Advance - One Piece - Monkey D Luffy3_28: 2130014187
+      Game Boy Advance - One Piece - Monkey D Luffy3_29: -1487048457
+      Game Boy Advance - One Piece - Monkey D Luffy3_3: -1084992852
+      Game Boy Advance - One Piece - Monkey D Luffy3_30: -606344013
+      Game Boy Advance - One Piece - Monkey D Luffy3_31: -61164131
+      Game Boy Advance - One Piece - Monkey D Luffy3_32: -328680856
+      Game Boy Advance - One Piece - Monkey D Luffy3_33: -638193758
+      Game Boy Advance - One Piece - Monkey D Luffy3_34: 1859987459
+      Game Boy Advance - One Piece - Monkey D Luffy3_35: 917202289
+      Game Boy Advance - One Piece - Monkey D Luffy3_36: 119342587
+      Game Boy Advance - One Piece - Monkey D Luffy3_37: -892689822
+      Game Boy Advance - One Piece - Monkey D Luffy3_38: 1488063537
+      Game Boy Advance - One Piece - Monkey D Luffy3_39: -239730527
+      Game Boy Advance - One Piece - Monkey D Luffy3_4: 402638800
+      Game Boy Advance - One Piece - Monkey D Luffy3_40: -75349106
+      Game Boy Advance - One Piece - Monkey D Luffy3_41: 1063312052
+      Game Boy Advance - One Piece - Monkey D Luffy3_42: 1972499923
+      Game Boy Advance - One Piece - Monkey D Luffy3_5: 2054494817
+      Game Boy Advance - One Piece - Monkey D Luffy3_6: 1092685073
+      Game Boy Advance - One Piece - Monkey D Luffy3_7: 596741296
+      Game Boy Advance - One Piece - Monkey D Luffy3_8: -1350949776
+      Game Boy Advance - One Piece - Monkey D Luffy3_9: 1212440033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

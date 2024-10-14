@@ -69,8 +69,6 @@ public class GameHandler : MonoBehaviour
     }
 
 
-   
-
 
 
     public void GetPositionToSpawnEnemy(Transform pos)
@@ -89,17 +87,35 @@ public class GameHandler : MonoBehaviour
         {
             Transform child = pos.Find("PositionSpawnEnemy");
             Transform postionSpawnCoin = pos.Find("PositionSpawnCoin");
-            if(child != null)
+
+            SpawnEnergy(pos);
+
+            if (child != null)
             {
                 GetPositionToSpawnEnemy(child);
-                
+
             }
 
-            if(postionSpawnCoin != null)
+            if (postionSpawnCoin != null)
             {
                 GetProductFromFactory(0, postionSpawnCoin);
             }
-           
+            
+        }
+    }
+
+    private void SpawnEnergy(Transform pos)
+    {
+
+        foreach (Transform child in pos)
+        {
+            if (child.name.Contains("PositionSpawnEnergy"))
+            {
+                if(child != null)
+                {
+                    GetProductFromFactory(1, child);
+                }
+            }
         }
     }
 

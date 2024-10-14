@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Timeline\BoostTimeline.cs" />
     <Compile Include="Assets\Scripts\Audio\SFX.cs" />
+    <Compile Include="Assets\Scripts\Factory\ConcreateFactoryEnergy.cs" />
     <Compile Include="Assets\Scripts\UI\AdapterNumber.cs" />
     <Compile Include="Assets\Scripts\UI\SliderUI.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\PoolingObject.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHandler.cs" />
     <Compile Include="Assets\Scripts\UI_Animation\UIAnimationController.cs" />
     <Compile Include="Assets\Scripts\Color\MaterialColorSetter.cs" />
+    <Compile Include="Assets\Scripts\Product\Product.cs" />
     <Compile Include="Assets\Scripts\GameHandler\GameHandler.cs" />
     <Compile Include="Assets\Scripts\Spawn\SpawnMap\SpawnMap.cs" />
     <Compile Include="Assets\Scripts\FSM\FSM.cs" />
@@ -100,7 +102,6 @@
     <Compile Include="Assets\Scripts\Product\IProduct.cs" />
     <Compile Include="Assets\Scripts\Control\Jump\Jump.cs" />
     <Compile Include="Assets\Scripts\Timeline\Timeline.cs" />
-    <Compile Include="Assets\Scripts\Product\Coin.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\Pooling.cs" />
   </ItemGroup>
   <ItemGroup>

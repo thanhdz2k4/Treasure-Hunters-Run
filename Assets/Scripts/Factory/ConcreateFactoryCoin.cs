@@ -6,7 +6,7 @@ public class ConcreateFactoryCoin : Factory
 {
 
     [SerializeField]
-    Coin coin;
+    Product coin;
 
     [SerializeField]
     PoolingObject poolingObject;
@@ -23,18 +23,17 @@ public class ConcreateFactoryCoin : Factory
     {
         int ran = Random.Range(0, 100);
         int quantity = Random.Range(0, possibleQuantity);
-        Debug.Log(" Random.Range(0, possibleQuantity): " + quantity);
 
         // Check if random number is within the rate
         if (ran <= rate)
         {
-            Coin newCoin = null;  // Declare newCoin outside the loop to keep the last created coin
+            Product newCoin = null;  // Declare newCoin outside the loop to keep the last created coin
 
             for (int i = 0; i < quantity; i++)
             {
                 // Create a Prefab instance and get the product component
                 GameObject instance = poolingObject.GetPoolObject();
-                newCoin = instance.GetComponent<Coin>();
+                newCoin = instance.GetComponent<Product>();
 
                 // Set position for each coin
                 newCoin.transform.position = position.position + new Vector3(i, 0, 0);
