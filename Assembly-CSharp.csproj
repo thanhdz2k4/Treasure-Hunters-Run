@@ -62,9 +62,11 @@
     <Compile Include="Assets\Scripts\Timeline\BoostTimeline.cs" />
     <Compile Include="Assets\Scripts\Audio\SFX.cs" />
     <Compile Include="Assets\Scripts\Factory\ConcreateFactoryEnergy.cs" />
+    <Compile Include="Assets\Scripts\Item\Energy.cs" />
     <Compile Include="Assets\Scripts\UI\AdapterNumber.cs" />
     <Compile Include="Assets\Scripts\UI\SliderUI.cs" />
     <Compile Include="Assets\Scripts\PoolingObject\PoolingObject.cs" />
+    <Compile Include="Assets\Scripts\Item\Coin.cs" />
     <Compile Include="Assets\Scripts\Control\Jump\PlayerJumpState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\DayLight\DayLightSystem.cs" />
@@ -88,7 +90,9 @@
     <Compile Include="Assets\Scripts\Save\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\State\AttackState\PlayerAttackState.cs" />
     <Compile Include="Assets\Scripts\FSM\AdvancedFSM.cs" />
+    <Compile Include="Assets\Scripts\Interface\ICollectible.cs" />
     <Compile Include="Assets\Scripts\Product\BoostItem.cs" />
+    <Compile Include="Assets\Scripts\UI\Toast.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHandler.cs" />
     <Compile Include="Assets\Scripts\UI_Animation\UIAnimationController.cs" />
     <Compile Include="Assets\Scripts\Color\MaterialColorSetter.cs" />

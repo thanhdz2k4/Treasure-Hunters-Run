@@ -20,6 +20,7 @@ public class UIAnimationController : MonoBehaviour
     [Header("SHOP SCREEN ANIMATOR")]
     [SerializeField] Animator[] ShopAnimator;
 
+
     private void Start()
     {
         PlayMainMenuAnimator();

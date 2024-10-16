@@ -5,6 +5,9 @@ using UnityEngine;
 public class Product : MonoBehaviour, IProduct
 {
     [SerializeField]
+    ICollectible item;
+
+    [SerializeField]
     AudioSource audioSource;
 
     [SerializeField]
@@ -15,13 +18,17 @@ public class Product : MonoBehaviour, IProduct
     public string ProductName { get => Name; set => Name = value; }
 
     [SerializeField]
-    float value;
-
-    [SerializeField]
     float xDespawn;
 
     [SerializeField]
     float timerDelaySpawn;
+
+    private void Start()
+    {
+        item = GetComponent<ICollectible>();
+    }
+
+
 
     private void Update()
     {
@@ -41,7 +48,7 @@ public class Product : MonoBehaviour, IProduct
     {
         if (collision.tag == "Player")
         {
-            //SaveSystem.Instance.AddCoint((int)value);
+            item.Collect();
             audioSource.PlayOneShot(collectAudio);
             StartCoroutine(DestroyAfterAudio());
         }

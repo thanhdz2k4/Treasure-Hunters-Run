@@ -39,6 +39,10 @@ public class VelocityHandler : MonoBehaviour
     [SerializeField]
     private float speedSlow;
 
+    [SerializeField]
+    float timer;
+
+   
 
     private void Awake()
     {
@@ -70,6 +74,7 @@ public class VelocityHandler : MonoBehaviour
 
     private void CaculateNewVelocity()
     {
+        UpdateLevel();
         float velocityRatio = velocity.x / maxXVelocity;
         acceleration = maxAcceleration * (1 - velocityRatio);
 
@@ -82,10 +87,15 @@ public class VelocityHandler : MonoBehaviour
             if (velocity.x > maxXVelocity * speedMultiply)
             {
                 velocity.x = maxXVelocity * speedMultiply;
-            }
+            } 
+    }
 
-
-       
+    public void UpdateLevel()
+    {
+        timer += Time.deltaTime;
+        if (timer >= 10) maxXVelocity = 300;
+        else if (timer >= 20) maxXVelocity = 400;
+            
     }
 
     public void Pause()
@@ -104,6 +114,7 @@ public class VelocityHandler : MonoBehaviour
         this.acceleration = 0;
         this.maxVelocity = 0;
         this.currentDistance = 0;
+        this.timer = 0;
     }
 
     public void SpeedMultiplier(float speedMultiplier)

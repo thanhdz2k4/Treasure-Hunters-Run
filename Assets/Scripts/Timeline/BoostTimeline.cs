@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
+using TMPro;
 
 public class BoostTimeline : MonoBehaviour
 {
+    [SerializeField]
+    Slider energySlider;
     // this is the position player and boat arrive at
     [SerializeField]
     Transform position;
@@ -25,11 +29,10 @@ public class BoostTimeline : MonoBehaviour
     bool isActive;
 
 
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.B) && energySlider.value >= 1)
         {
             Boost();
         }
