@@ -46,9 +46,10 @@ public class Product : MonoBehaviour, IProduct
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" || collision.tag == "Ship")
         {
             item.Collect();
+            audioSource.volume = PlayerPrefs.GetFloat("SFXVolume");
             audioSource.PlayOneShot(collectAudio);
             StartCoroutine(DestroyAfterAudio());
         }

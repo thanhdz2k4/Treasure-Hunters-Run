@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class Boost : MonoBehaviour
 {
@@ -15,16 +16,13 @@ public class Boost : MonoBehaviour
     Transform Ship_Position_After_Boost;
 
     [SerializeField]
+    Slider energyBar;
+
+    [SerializeField]
     Jump Jump;
 
     [SerializeField]
     Collider2D myFoot;
-
-    [SerializeField]
-    float timer;
-
-    [SerializeField]
-    float timerDelay = 2;
 
     private void Start()
     {
@@ -39,15 +37,12 @@ public class Boost : MonoBehaviour
             VelocityHandler.Instance.SpeedMultiplier(4);
             
         }
-
-        timer += Time.deltaTime;
-        if(timer >= timerDelay && this.myFoot.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if(this.myFoot.IsTouchingLayers(LayerMask.GetMask("Ground")) && energyBar.value == 0)
         {
             VelocityHandler.Instance.SpeedMultiplier(10);
             Ship.position = Ship_Position_After_Boost.position;
             gameObject.SetActive(false);
             Player.SetActive(true);
-            timer = 0;
         }
     }
 

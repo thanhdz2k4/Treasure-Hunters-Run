@@ -26,6 +26,9 @@ public class BoostTimeline : MonoBehaviour
     float speedMove;
 
     [SerializeField]
+    float energeticConsumptionSpeed;
+
+    [SerializeField]
     bool isActive;
 
 
@@ -35,14 +38,22 @@ public class BoostTimeline : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B) && energySlider.value >= 1)
         {
             Boost();
+            
+           
         }
-        if(isActive)
+        if (isActive)
         {
             Boat.transform.rotation = Quaternion.Slerp(Boat.transform.rotation, Quaternion.Euler(0, 0, 0), 2 * Time.fixedDeltaTime);
             Boat.SetActive(false);
             Player.SetActive(false);
             Player_Boat.SetActive(true);
-            isActive = false;
+            energySlider.value -= Time.deltaTime * energeticConsumptionSpeed;
+            if (energySlider.value <= 0)
+            {
+                
+                isActive = false;
+            }
+            
         }
     }
 

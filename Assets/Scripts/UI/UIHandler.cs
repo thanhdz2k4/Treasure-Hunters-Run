@@ -13,6 +13,7 @@ public class UIHandler : MonoBehaviour
     // Number text
     [SerializeField] AdapterNumber adapterNumberInFallGameScreen;
     [SerializeField] AdapterNumber adapterNumberInRecoreGame;
+    [SerializeField] AdapterNumber adapterNumberInCoinShop;
 
     // Textmesspro 
     [SerializeField] TMP_Text coinsText;
@@ -43,6 +44,7 @@ public class UIHandler : MonoBehaviour
         distanceText.text = ": " + Mathf.FloorToInt(VelocityHandler.Instance.currentDistance) + " m";
         coinsText.text = ": " + SaveSystem.Instance.currentCoins;
         killerText.text = ": " + SaveSystem.Instance.currentSkill;
+        Debug.Log(PlayerPrefs.GetInt("yourCoin"));
     }
 
     public void FallGameScreen()
@@ -56,8 +58,12 @@ public class UIHandler : MonoBehaviour
             isTickButtonReset = true;
 
         }
+    }
 
-
+    public void UpdateClickShop()
+    {
+        adapterNumberInCoinShop.listOfImage(Mathf.FloorToInt(PlayerPrefs.GetInt("yourCoin")));
+        Debug.Log("Set coin");
     }
 
     public void UnacticeFallGameScreen()
